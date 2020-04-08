@@ -1,0 +1,127 @@
+name: DeeplinkBlueprints
+attributes:
+  ORGANIZATIONNAME: LionSoftware.org
+options:
+  createIntermediateGroups: true
+  xcodeVersion: 11.3
+  groupSortPosition: top
+  deploymentTarget:
+    iOS: "8.0"
+    macOS: "10.10"
+    watchOS: "2.0"
+    tvOS: "9.0"
+configs:
+  Debug: debug
+  Release: release
+fileGroups:
+  - Configurations
+  - Package.swift
+configFiles:
+  Debug: Configurations/Debug.xcconfig
+  Release: Configurations/Release.xcconfig
+schemes:
+  DeeplinkBlueprints_iOS:
+    build:
+      targets:
+        DeeplinkBlueprints_iOS: all
+    run:
+      config: Debug
+    test:
+      config: Debug
+      targets: [DeeplinkBlueprintsTests_iOS]
+      gatherCoverageData: true
+    profile:
+      config: Release
+    analyze:
+      config: Debug
+    archive:
+      config: Release
+  DeeplinkBlueprints_macOS:
+    build:
+      targets:
+        DeeplinkBlueprints_macOS: all
+    run:
+      config: Debug
+    test:
+      config: Debug
+      targets: [DeeplinkBlueprintsTests_macOS]
+      gatherCoverageData: true
+    profile:
+      config: Release
+    analyze:
+      config: Debug
+    archive:
+      config: Release
+  DeeplinkBlueprints_watchOS:
+    build:
+      targets:
+        DeeplinkBlueprints_watchOS: all
+    run:
+      config: Debug
+    test:
+      config: Debug
+      targets: []
+      gatherCoverageData: true
+    profile:
+      config: Release
+    analyze:
+      config: Debug
+    archive:
+      config: Release
+  DeeplinkBlueprints_tvOS:
+    build:
+      targets:
+        DeeplinkBlueprints_tvOS: all
+    run:
+      config: Debug
+    test:
+      config: Debug
+      targets: [DeeplinkBlueprintsTests_tvOS]
+      gatherCoverageData: true
+    profile:
+      config: Release
+    analyze:
+      config: Debug
+    archive:
+      config: Release
+
+targets:
+  DeeplinkBlueprints:
+    type: framework
+    platform: [macOS, iOS, tvOS, watchOS]
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: $(DEEPLINK_BLUEPRINTS_BUNDLE_IDENTIFIER)
+        PROVISIONING_PROFILE_SPECIFIER: $(DEEPLINK_BLUEPRINTS_PROVISIONING_PROFILE_SPECIFIER)
+    sources:
+      - path: DeeplinkBlueprints
+  DeeplinkBlueprintsTests:
+    type: bundle.unit-test
+    platform: [macOS, iOS, tvOS]
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: org.lionsoftware.deeplink-blueprints.tests
+        # empty specifier resolves to "Automatic"
+        PROVISIONING_PROFILE_SPECIFIER: 
+    sources:
+      - path: DeeplinkBlueprintsTests
+    dependencies:
+      - target: DeeplinkBlueprints_macOS
+  Example:
+    type: application
+    platform: iOS
+    deploymentTarget: 13.0
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: org.lionsoftware.deeplink-blueprints.example
+        # empty specifier resolves to "Automatic"
+        PROVISIONING_PROFILE_SPECIFIER:
+        CURRENT_PROJECT_VERSION: 1
+    sources:
+      - path: Example
+    dependencies:
+      - target: DeeplinkBlueprints_iOS
+    postBuildScripts:
+      - script: |
+                "${PODS_ROOT}/SwiftLint/swiftlint"
+        name: SwiftLint
