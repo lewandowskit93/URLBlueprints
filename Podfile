@@ -5,12 +5,12 @@ project 'DeeplinkBlueprints.xcodeproj'
 use_frameworks!
 
 target 'Example' do
-  platform :ios, '13.0'
+  platform :macos, '10.15'
   pod 'SwiftLint'
 end
 
 target 'DeeplinkBlueprints_macOS' do
-  platform :macos, '10.10'
+  platform :macos, '10.15'
   pod 'SwiftLint'
 
   # Pods for DeeplinkBlueprints

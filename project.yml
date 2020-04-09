@@ -108,9 +108,9 @@ targets:
     dependencies:
       - target: DeeplinkBlueprints_macOS
   Example:
-    type: application
-    platform: iOS
-    deploymentTarget: 13.0
+    type: tool
+    platform: macOS
+    deploymentTarget: 10.15
     settings:
       base:
         PRODUCT_BUNDLE_IDENTIFIER: org.lionsoftware.deeplink-blueprints.example
@@ -120,7 +120,7 @@ targets:
     sources:
       - path: Example
     dependencies:
-      - target: DeeplinkBlueprints_iOS
+      - target: DeeplinkBlueprints_macOS
     postBuildScripts:
       - script: |
                 "${PODS_ROOT}/SwiftLint/swiftlint"
