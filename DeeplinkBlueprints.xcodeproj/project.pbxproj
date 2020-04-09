@@ -35,6 +35,12 @@
 		F123FA31243E9D88006664B8 /* Route.swift in Sources */ = {isa = PBXBuildFile; fileRef = F123FA30243E9D88006664B8 /* Route.swift */; };
 		F123FA32243E9D88006664B8 /* Route.swift in Sources */ = {isa = PBXBuildFile; fileRef = F123FA30243E9D88006664B8 /* Route.swift */; };
 		F123FA33243E9D88006664B8 /* Route.swift in Sources */ = {isa = PBXBuildFile; fileRef = F123FA30243E9D88006664B8 /* Route.swift */; };
+		F123FA3B243E9EDA006664B8 /* ExtractOperator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F123FA3A243E9EDA006664B8 /* ExtractOperator.swift */; };
+		F123FA3C243E9EDA006664B8 /* ExtractOperator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F123FA3A243E9EDA006664B8 /* ExtractOperator.swift */; };
+		F123FA3D243E9EDA006664B8 /* ExtractOperator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F123FA3A243E9EDA006664B8 /* ExtractOperator.swift */; };
+		F123FA3F243E9F07006664B8 /* MatchOperator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F123FA3E243E9F07006664B8 /* MatchOperator.swift */; };
+		F123FA40243E9F07006664B8 /* MatchOperator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F123FA3E243E9F07006664B8 /* MatchOperator.swift */; };
+		F123FA41243E9F07006664B8 /* MatchOperator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F123FA3E243E9F07006664B8 /* MatchOperator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -157,6 +163,8 @@
 		F123FA28243E9D0F006664B8 /* DeeplinkBlueprintError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeeplinkBlueprintError.swift; sourceTree = "<group>"; };
 		F123FA2C243E9D67006664B8 /* DeeplinkBlueprintComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeeplinkBlueprintComponent.swift; sourceTree = "<group>"; };
 		F123FA30243E9D88006664B8 /* Route.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Route.swift; sourceTree = "<group>"; };
+		F123FA3A243E9EDA006664B8 /* ExtractOperator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtractOperator.swift; sourceTree = "<group>"; };
+		F123FA3E243E9F07006664B8 /* MatchOperator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchOperator.swift; sourceTree = "<group>"; };
 		F5E9566C398EDC1F34333E50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		F628D4D95EAE76C7AD0198FB /* Pods_DeeplinkBlueprints_watchOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DeeplinkBlueprints_watchOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7B85E0D7FC710FB490117D0 /* Pods-DeeplinkBlueprintsTests_iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DeeplinkBlueprintsTests_iOS.release.xcconfig"; path = "Target Support Files/Pods-DeeplinkBlueprintsTests_iOS/Pods-DeeplinkBlueprintsTests_iOS.release.xcconfig"; sourceTree = "<group>"; };
@@ -294,6 +302,8 @@
 		82D2A811B61BF8D183E2649A /* DeeplinkBlueprints */ = {
 			isa = PBXGroup;
 			children = (
+				F123FA39243E9EB7006664B8 /* Extensions */,
+				F123FA38243E9EAF006664B8 /* Operators */,
 				F123FA37243E9E92006664B8 /* Deeplinks */,
 				F123FA36243E9E8A006664B8 /* Protocols */,
 				F123FA35243E9E61006664B8 /* Routing */,
@@ -372,6 +382,22 @@
 				F123FA2C243E9D67006664B8 /* DeeplinkBlueprintComponent.swift */,
 			);
 			path = Deeplinks;
+			sourceTree = "<group>";
+		};
+		F123FA38243E9EAF006664B8 /* Operators */ = {
+			isa = PBXGroup;
+			children = (
+				F123FA3A243E9EDA006664B8 /* ExtractOperator.swift */,
+				F123FA3E243E9F07006664B8 /* MatchOperator.swift */,
+			);
+			path = Operators;
+			sourceTree = "<group>";
+		};
+		F123FA39243E9EB7006664B8 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -795,9 +821,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				F123FA29243E9D0F006664B8 /* DeeplinkBlueprintError.swift in Sources */,
+				F123FA3F243E9F07006664B8 /* MatchOperator.swift in Sources */,
 				F123FA31243E9D88006664B8 /* Route.swift in Sources */,
 				F123FA2D243E9D67006664B8 /* DeeplinkBlueprintComponent.swift in Sources */,
 				F123FA25243E9CD9006664B8 /* RouteError.swift in Sources */,
+				F123FA3B243E9EDA006664B8 /* ExtractOperator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -813,9 +841,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				F123FA2B243E9D0F006664B8 /* DeeplinkBlueprintError.swift in Sources */,
+				F123FA41243E9F07006664B8 /* MatchOperator.swift in Sources */,
 				F123FA33243E9D88006664B8 /* Route.swift in Sources */,
 				F123FA2F243E9D67006664B8 /* DeeplinkBlueprintComponent.swift in Sources */,
 				F123FA27243E9CD9006664B8 /* RouteError.swift in Sources */,
+				F123FA3D243E9EDA006664B8 /* ExtractOperator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -845,9 +875,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				F123FA2A243E9D0F006664B8 /* DeeplinkBlueprintError.swift in Sources */,
+				F123FA40243E9F07006664B8 /* MatchOperator.swift in Sources */,
 				F123FA32243E9D88006664B8 /* Route.swift in Sources */,
 				F123FA2E243E9D67006664B8 /* DeeplinkBlueprintComponent.swift in Sources */,
 				F123FA26243E9CD9006664B8 /* RouteError.swift in Sources */,
+				F123FA3C243E9EDA006664B8 /* ExtractOperator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
