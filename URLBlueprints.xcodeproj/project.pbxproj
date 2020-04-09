@@ -84,6 +84,9 @@
 		E39A03AC55F477950D65FA85 /* DeeplinkBlueprintsTests_macOS-Bridging-Header.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D0BD45562EA3F4262966C2B /* DeeplinkBlueprintsTests_macOS-Bridging-Header.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E6403163FEA6DE3C232759BA /* Route.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61FBE7240E985C2E033C91D9 /* Route.swift */; };
 		EFB452B7E09F422B4DC6C311 /* Route.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61FBE7240E985C2E033C91D9 /* Route.swift */; };
+		F123FA97243FB5D3006664B8 /* ComponentsArrayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F123FA96243FB5D3006664B8 /* ComponentsArrayTests.swift */; };
+		F123FA98243FB5D3006664B8 /* ComponentsArrayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F123FA96243FB5D3006664B8 /* ComponentsArrayTests.swift */; };
+		F123FA99243FB5D3006664B8 /* ComponentsArrayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F123FA96243FB5D3006664B8 /* ComponentsArrayTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -207,6 +210,7 @@
 		DD92C0CAC9797A2CF3B8A28A /* ExampleDeeplinkBlueprints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleDeeplinkBlueprints.swift; sourceTree = "<group>"; };
 		EB51924995B8AA8071C1FA9D /* Pods-URLBlueprintsTests_tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-URLBlueprintsTests_tvOS.release.xcconfig"; path = "Target Support Files/Pods-URLBlueprintsTests_tvOS/Pods-URLBlueprintsTests_tvOS.release.xcconfig"; sourceTree = "<group>"; };
 		F0B5E2D4541B6A2885BA5C8A /* URLBlueprints.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = URLBlueprints.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F123FA96243FB5D3006664B8 /* ComponentsArrayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComponentsArrayTests.swift; sourceTree = "<group>"; };
 		F754F48A02AB7A498463C55C /* URLBlueprints.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = URLBlueprints.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9A38849C2A7C8981F6807C6 /* URLBlueprintsTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = URLBlueprintsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -388,6 +392,7 @@
 			isa = PBXGroup;
 			children = (
 				485F770E959A4662DAFF85B6 /* DeeplinkBlueprintComponentTests.swift */,
+				F123FA96243FB5D3006664B8 /* ComponentsArrayTests.swift */,
 			);
 			path = URLBlueprintsTests;
 			sourceTree = "<group>";
@@ -941,6 +946,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A7143451FA1832CBB1092620 /* DeeplinkBlueprintComponentTests.swift in Sources */,
+				F123FA98243FB5D3006664B8 /* ComponentsArrayTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -967,6 +973,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				170E3B87FAF5D5A806857306 /* DeeplinkBlueprintComponentTests.swift in Sources */,
+				F123FA99243FB5D3006664B8 /* ComponentsArrayTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1003,6 +1010,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				92AA3D964C68A8FB3EBF0125 /* DeeplinkBlueprintComponentTests.swift in Sources */,
+				F123FA97243FB5D3006664B8 /* ComponentsArrayTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
