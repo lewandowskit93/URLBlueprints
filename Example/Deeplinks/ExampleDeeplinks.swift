@@ -12,7 +12,7 @@ public enum ExampleDeeplink: Equatable {
     case complex1(userId: Int)
     case complex2(userId: Int, itemId: String)
     
-    public var deeplink: ExampleDeeplinkBlueprints {
+    public var deeplink: ExampleURLBlueprints {
         switch self {
         case .simple1: return .simple1
         case .simple2: return .simple2

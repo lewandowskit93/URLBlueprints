@@ -1,7 +1,7 @@
 // swift-tools-version:5.2
 //
 //  Package.swift
-//  DeeplinkBlueprints
+//  URLBlueprints
 //
 //  Created by Tomasz Lewandowski on 09/04/2020.
 //  Copyright © 2020 LionSoftware.org. All rights reserved.
@@ -9,20 +9,20 @@
 import PackageDescription
 
 let package = Package(
-    name: "DeeplinkBlueprints",
+    name: "URLBlueprints",
     products: [
         .library(
-            name: "DeeplinkBlueprints",
-            targets: ["DeeplinkBlueprints"])
+            name: "URLBlueprints",
+            targets: ["URLBlueprints"])
     ],
     targets: [
         .target(
-            name: "DeeplinkBlueprints",
+            name: "URLBlueprints",
             dependencies: [],
-            path: "DeeplinkBlueprints"),
+            path: "URLBlueprints"),
         .testTarget(
-            name: "DeeplinkBlueprintsTests",
-            dependencies: ["DeeplinkBlueprints"],
-            path: "DeeplinkBlueprintsTests")
+            name: "URLBlueprintsTests",
+            dependencies: ["URLBlueprints"],
+            path: "URLBlueprintsTests")
     ]
 )

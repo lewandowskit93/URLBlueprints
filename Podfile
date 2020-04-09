@@ -1,6 +1,6 @@
 # Uncomment the next line to define a global platform for your project
 # platform :ios, '9.0'
-project 'DeeplinkBlueprints.xcodeproj'
+project 'URLBlueprints.xcodeproj'
  
 use_frameworks!
 
@@ -9,48 +9,48 @@ target 'Example' do
   pod 'SwiftLint'
 end
 
-target 'DeeplinkBlueprints_macOS' do
+target 'URLBlueprints_macOS' do
   platform :macos, '10.15'
   pod 'SwiftLint'
 
-  # Pods for DeeplinkBlueprints
+  # Pods for URLBlueprints
 
-  target 'DeeplinkBlueprintsTests_macOS' do
+  target 'URLBlueprintsTests_macOS' do
     # Pods for testing
   	inherit! :search_paths
   end
 
 end
 
-target 'DeeplinkBlueprints_iOS' do
+target 'URLBlueprints_iOS' do
   platform :ios, '8.0'
   pod 'SwiftLint'
 
-  # Pods for DeeplinkBlueprints
+  # Pods for URLBlueprints
 
-  target 'DeeplinkBlueprintsTests_iOS' do
+  target 'URLBlueprintsTests_iOS' do
     # Pods for testing
     inherit! :search_paths
   end
 
 end
 
-target 'DeeplinkBlueprints_tvOS' do
+target 'URLBlueprints_tvOS' do
   platform :tvos, '9.0'
   pod 'SwiftLint'
 
-  # Pods for DeeplinkBlueprints
+  # Pods for URLBlueprints
 
-  target 'DeeplinkBlueprintsTests_tvOS' do
+  target 'URLBlueprintsTests_tvOS' do
     # Pods for testing
     inherit! :search_paths
   end
 
 end
 
-target 'DeeplinkBlueprints_watchOS' do
+target 'URLBlueprints_watchOS' do
   platform :watchos, '2.0'
   pod 'SwiftLint'
 
-  # Pods for DeeplinkBlueprints
+  # Pods for URLBlueprints
 end

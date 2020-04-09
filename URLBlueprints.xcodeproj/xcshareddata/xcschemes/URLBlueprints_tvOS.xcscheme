@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "83E74574DE37433142231D4C"
-               BuildableName = "DeeplinkBlueprints.framework"
-               BlueprintName = "DeeplinkBlueprints_watchOS"
-               ReferencedContainer = "container:DeeplinkBlueprints.xcodeproj">
+               BlueprintIdentifier = "198995CA87EDF6CAC3C202F9"
+               BuildableName = "URLBlueprints.framework"
+               BlueprintName = "URLBlueprints_tvOS"
+               ReferencedContainer = "container:URLBlueprints.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -30,14 +30,24 @@
       onlyGenerateCoverageForSpecifiedTargets = "NO"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "FA1B0361366C913B4C4336F8"
+               BuildableName = "URLBlueprintsTests.xctest"
+               BlueprintName = "URLBlueprintsTests_tvOS"
+               ReferencedContainer = "container:URLBlueprints.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "83E74574DE37433142231D4C"
-            BuildableName = "DeeplinkBlueprints.framework"
-            BlueprintName = "DeeplinkBlueprints_watchOS"
-            ReferencedContainer = "container:DeeplinkBlueprints.xcodeproj">
+            BlueprintIdentifier = "198995CA87EDF6CAC3C202F9"
+            BuildableName = "URLBlueprints.framework"
+            BlueprintName = "URLBlueprints_tvOS"
+            ReferencedContainer = "container:URLBlueprints.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <CommandLineArguments>
@@ -60,10 +70,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "83E74574DE37433142231D4C"
-            BuildableName = "DeeplinkBlueprints.framework"
-            BlueprintName = "DeeplinkBlueprints_watchOS"
-            ReferencedContainer = "container:DeeplinkBlueprints.xcodeproj">
+            BlueprintIdentifier = "198995CA87EDF6CAC3C202F9"
+            BuildableName = "URLBlueprints.framework"
+            BlueprintName = "URLBlueprints_tvOS"
+            ReferencedContainer = "container:URLBlueprints.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <CommandLineArguments>
@@ -81,10 +91,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "83E74574DE37433142231D4C"
-            BuildableName = "DeeplinkBlueprints.framework"
-            BlueprintName = "DeeplinkBlueprints_watchOS"
-            ReferencedContainer = "container:DeeplinkBlueprints.xcodeproj">
+            BlueprintIdentifier = "198995CA87EDF6CAC3C202F9"
+            BuildableName = "URLBlueprints.framework"
+            BlueprintName = "URLBlueprints_tvOS"
+            ReferencedContainer = "container:URLBlueprints.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <CommandLineArguments>

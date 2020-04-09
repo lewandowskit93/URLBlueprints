@@ -1,6 +1,6 @@
 //
-//  DeeplinkRouter.swift
-//  DeeplinkBlueprints
+//  URLRouter.swift
+//  URLBlueprints
 //
 //  Created by Tomasz Lewandowski on 09/04/2020.
 //  Copyright © 2020 LionSoftware.org. All rights reserved.
@@ -8,8 +8,8 @@
 
 import Foundation
 
-public final class DeeplinkRouter<DeeplinkType>: PDeeplinkRouter {
-    private var routes: [DeeplinkBlueprint: (DeeplinkBlueprint) -> Route<DeeplinkType>] = [:]
+public final class URLRouter<DeeplinkType>: PURLRouter {
+    private var routes: [URLBlueprint: (URLBlueprint) -> Route<DeeplinkType>] = [:]
     
     public init() {
         
@@ -20,7 +20,7 @@ public final class DeeplinkRouter<DeeplinkType>: PDeeplinkRouter {
         return true
     }
     
-    public func register(blueprint: DeeplinkBlueprint, routeProvider: @escaping (DeeplinkBlueprint) -> Route<DeeplinkType>) {
+    public func register(blueprint: URLBlueprint, routeProvider: @escaping (URLBlueprint) -> Route<DeeplinkType>) {
         routes[blueprint] = routeProvider
     }
     
@@ -29,8 +29,8 @@ public final class DeeplinkRouter<DeeplinkType>: PDeeplinkRouter {
         do {
             let parsedDeeplink = try routeDescription.0 <~ url
             return routeDescription.1(parsedDeeplink)
-        } catch let error where error is DeeplinkBlueprintError {
-            return .error(.parsingError(error as! DeeplinkBlueprintError))
+        } catch let error where error is URLBlueprintError {
+            return .error(.parsingError(error as! URLBlueprintError))
         } catch {
             return .error(.unknownError)
         }

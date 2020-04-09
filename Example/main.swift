@@ -7,32 +7,32 @@
 //
 
 import Foundation
-import DeeplinkBlueprints
+import URLBlueprints
 
-let router = DeeplinkRouter<ExampleDeeplink>()
+let router = URLRouter<ExampleDeeplink>()
 
-private func debugRoute(url: URL, router: DeeplinkRouter<ExampleDeeplink>) {
+private func debugRoute(url: URL, router: URLRouter<ExampleDeeplink>) {
     print("~~~~~~~~~~~~~~~~~~~~~~~")
     print(url)
     print("Can handle: \(router.canHandleURL(url: url))")
     print("Route: \(router.route(forUrl: url))")
 }
 
-let b1 = ExampleDeeplinkBlueprints.simple1.blueprint
+let b1 = ExampleURLBlueprints.simple1.blueprint
 print("Registering \(b1.pattern)")
 router.register(blueprint: b1, routeProvider: { deeplink in
     try? print("Handling \(deeplink.urlString())")
     return .blank
 })
 
-let b2 = ExampleDeeplinkBlueprints.simple2.blueprint
+let b2 = ExampleURLBlueprints.simple2.blueprint
 print("Registering \(b2.pattern)")
 router.register(blueprint: b2) { deeplink in
     try? print("Handling \(deeplink.urlString())")
     return .redirect(toURL: URL(string: "www.google.com")!)
 }
 
-let b3 = ExampleDeeplinkBlueprints.complex1(userId: .intPlaceholder(key: "userId")).blueprint
+let b3 = ExampleURLBlueprints.complex1(userId: .intPlaceholder(key: "userId")).blueprint
 print("Registering \(b3.pattern)")
 router.register(blueprint: b3, routeProvider: { deeplink in
     try? print("Handling \(deeplink.urlString())")
@@ -40,7 +40,7 @@ router.register(blueprint: b3, routeProvider: { deeplink in
     return .handleDeeplink(deeplink: .complex1(userId: userId))
 })
 
-let b4 = ExampleDeeplinkBlueprints.complex2(userId: .intPlaceholder(key: "userId"), itemId: .stringPlaceholder(key: "itemId") ).blueprint
+let b4 = ExampleURLBlueprints.complex2(userId: .intPlaceholder(key: "userId"), itemId: .stringPlaceholder(key: "itemId") ).blueprint
 print("Registering \(b4.pattern)")
 router.register(blueprint: b4, routeProvider: { deeplink in
     try? print("Handling \(deeplink.urlString())")

@@ -1,27 +1,27 @@
 //
-//  ExampleDeeplinkBlueprints.swift
+//  ExampleURLBlueprints.swift
 //  Example
 //
 //  Created by Tomasz Lewandowski on 09/04/2020.
 //  Copyright © 2020 LionSoftware.org. All rights reserved.
 //
 
-import DeeplinkBlueprints
+import URLBlueprints
 
-public enum ExampleDeeplinkBlueprints {
+public enum ExampleURLBlueprints {
     case simple1
     case simple2
-    case complex1(userId: DeeplinkBlueprintComponent)
-    case complex2(userId: DeeplinkBlueprintComponent, itemId: DeeplinkBlueprintComponent)
+    case complex1(userId: URLBlueprintComponent)
+    case complex2(userId: URLBlueprintComponent, itemId: URLBlueprintComponent)
     
-    public var blueprint: DeeplinkBlueprint {
-        return DeeplinkBlueprint(
+    public var blueprint: URLBlueprint {
+        return URLBlueprint(
             scheme: "example",
             components: components
         )
     }
     
-    private var components: [DeeplinkBlueprintComponent] {
+    private var components: [URLBlueprintComponent] {
         switch self {
         case .simple1:
             return [.constant("simple"), .constant("index.html")]

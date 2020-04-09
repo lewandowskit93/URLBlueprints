@@ -1,12 +1,12 @@
 //
-//  DeeplinkBlueprintComponent.swift
-//  DeeplinkBlueprints
+//  URLBlueprintComponent.swift
+//  URLBlueprints
 //
 //  Created by Tomasz Lewandowski on 09/04/2020.
 //  Copyright © 2020 LionSoftware.org. All rights reserved.
 //
 
-public enum DeeplinkBlueprintComponent: Hashable {
+public enum URLBlueprintComponent: Hashable {
     case constant(String)
     case wildcard
     case intPlaceholder(key: String)
@@ -35,14 +35,14 @@ public enum DeeplinkBlueprintComponent: Hashable {
         case .wildcard,
              .intPlaceholder,
              .floatPlaceholder,
-             .stringPlaceholder: throw DeeplinkBlueprintError.placeholdersInBlueprint
+             .stringPlaceholder: throw URLBlueprintError.placeholdersInBlueprint
         case .int(let value): return "\(value)"
         case .float(let value): return "\(value)"
         case .string(let value): return "\(value)"
         }
     }
     
-    public static func ~= (component: DeeplinkBlueprintComponent, pathComponent: String) -> Bool {
+    public static func ~= (component: URLBlueprintComponent, pathComponent: String) -> Bool {
         switch component {
         case .wildcard: return true
         case .constant(let value): return value == pathComponent
@@ -52,14 +52,14 @@ public enum DeeplinkBlueprintComponent: Hashable {
         }
     }
     
-    public static func <~ (blueprintComponent: DeeplinkBlueprintComponent, pathComponent: String) throws -> DeeplinkBlueprintComponent {
+    public static func <~ (blueprintComponent: URLBlueprintComponent, pathComponent: String) throws -> URLBlueprintComponent {
         switch blueprintComponent {
         case .wildcard, .constant: return blueprintComponent
         case .intPlaceholder, .int:
-            guard let int = Int(pathComponent) else { throw DeeplinkBlueprintError.invalidValueType(expected: blueprintComponent, actual: pathComponent) }
+            guard let int = Int(pathComponent) else { throw URLBlueprintError.invalidValueType(expected: blueprintComponent, actual: pathComponent) }
             return .int(int)
         case .floatPlaceholder, .float:
-            guard let float = Float(pathComponent) else { throw DeeplinkBlueprintError.invalidValueType(expected: blueprintComponent, actual: pathComponent) }
+            guard let float = Float(pathComponent) else { throw URLBlueprintError.invalidValueType(expected: blueprintComponent, actual: pathComponent) }
             return .float(float)
         case .stringPlaceholder, .string:
             return .string(pathComponent)

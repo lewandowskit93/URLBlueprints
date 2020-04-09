@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "D961FEC1DDBB3EBCCC1710CB"
-               BuildableName = "DeeplinkBlueprints.framework"
-               BlueprintName = "DeeplinkBlueprints_iOS"
-               ReferencedContainer = "container:DeeplinkBlueprints.xcodeproj">
+               BlueprintIdentifier = "972231AE9DE4E3B3873619E1"
+               BuildableName = "URLBlueprints.framework"
+               BlueprintName = "URLBlueprints_macOS"
+               ReferencedContainer = "container:URLBlueprints.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -34,20 +34,20 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "9D9AD27DC19DE6C83E470513"
-               BuildableName = "DeeplinkBlueprintsTests.xctest"
-               BlueprintName = "DeeplinkBlueprintsTests_iOS"
-               ReferencedContainer = "container:DeeplinkBlueprints.xcodeproj">
+               BlueprintIdentifier = "ED64309E4032DEEF13BC505E"
+               BuildableName = "URLBlueprintsTests.xctest"
+               BlueprintName = "URLBlueprintsTests_macOS"
+               ReferencedContainer = "container:URLBlueprints.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "D961FEC1DDBB3EBCCC1710CB"
-            BuildableName = "DeeplinkBlueprints.framework"
-            BlueprintName = "DeeplinkBlueprints_iOS"
-            ReferencedContainer = "container:DeeplinkBlueprints.xcodeproj">
+            BlueprintIdentifier = "972231AE9DE4E3B3873619E1"
+            BuildableName = "URLBlueprints.framework"
+            BlueprintName = "URLBlueprints_macOS"
+            ReferencedContainer = "container:URLBlueprints.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <CommandLineArguments>
@@ -70,10 +70,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "D961FEC1DDBB3EBCCC1710CB"
-            BuildableName = "DeeplinkBlueprints.framework"
-            BlueprintName = "DeeplinkBlueprints_iOS"
-            ReferencedContainer = "container:DeeplinkBlueprints.xcodeproj">
+            BlueprintIdentifier = "972231AE9DE4E3B3873619E1"
+            BuildableName = "URLBlueprints.framework"
+            BlueprintName = "URLBlueprints_macOS"
+            ReferencedContainer = "container:URLBlueprints.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <CommandLineArguments>
@@ -91,10 +91,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "D961FEC1DDBB3EBCCC1710CB"
-            BuildableName = "DeeplinkBlueprints.framework"
-            BlueprintName = "DeeplinkBlueprints_iOS"
-            ReferencedContainer = "container:DeeplinkBlueprints.xcodeproj">
+            BlueprintIdentifier = "972231AE9DE4E3B3873619E1"
+            BuildableName = "URLBlueprints.framework"
+            BlueprintName = "URLBlueprints_macOS"
+            ReferencedContainer = "container:URLBlueprints.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <CommandLineArguments>

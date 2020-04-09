@@ -1,6 +1,6 @@
 //
-//  DeeplinkBlueprint.swift
-//  DeeplinkBlueprints
+//  URLBlueprint.swift
+//  URLBlueprints
 //
 //  Created by Tomasz Lewandowski on 09/04/2020.
 //  Copyright © 2020 LionSoftware.org. All rights reserved.
@@ -8,9 +8,9 @@
 
 import Foundation
 
-public struct DeeplinkBlueprint: Hashable {
+public struct URLBlueprint: Hashable {
     public let scheme: String
-    public let components: [DeeplinkBlueprintComponent]
+    public let components: [URLBlueprintComponent]
     
     public var pattern: String {
         guard components.count > 0 else { return scheme + "://" }
@@ -26,19 +26,19 @@ public struct DeeplinkBlueprint: Hashable {
         return try URL(string: urlString())
     }
     
-    public init(scheme: String, components: [DeeplinkBlueprintComponent]) {
+    public init(scheme: String, components: [URLBlueprintComponent]) {
         self.scheme = scheme
         self.components = components
     }
     
-    public static func ~= (blueprint: DeeplinkBlueprint, url: URL) -> Bool {
+    public static func ~= (blueprint: URLBlueprint, url: URL) -> Bool {
         return checkScheme(ofURL: url, matching: blueprint.scheme)
             && (blueprint.components ~= url.components)
     }
     
-    public static func <~ (blueprint: DeeplinkBlueprint, url: URL) throws -> DeeplinkBlueprint {
-        guard checkScheme(ofURL: url, matching: blueprint.scheme) else { throw DeeplinkBlueprintError.invalidScheme }
-        return try DeeplinkBlueprint(scheme: blueprint.scheme, components: blueprint.components <~ url.components)
+    public static func <~ (blueprint: URLBlueprint, url: URL) throws -> URLBlueprint {
+        guard checkScheme(ofURL: url, matching: blueprint.scheme) else { throw URLBlueprintError.invalidScheme }
+        return try URLBlueprint(scheme: blueprint.scheme, components: blueprint.components <~ url.components)
     }
     
     private static func checkScheme(ofURL url: URL, matching scheme: String) -> Bool {
