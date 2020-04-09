@@ -27,6 +27,18 @@ class URLBlueprintTests: XCTestCase {
         let url = URL(string: "scheme://string")!
         XCTAssertNotMatch(blueprint, url)
     }
+    
+    func testPattern_WhenCalled_ShouldReturnCorrectPattern() {
+        XCTAssertEqual("scheme://<string:name>", URLBlueprint(scheme: "scheme", components: [.stringPlaceholder(key: "name")]).pattern)
+    }
+    
+    func testUrlString_WhenCalled_ShouldReturnCorrectUrlString() throws {
+        try XCTAssertEqual("scheme://string", URLBlueprint(scheme: "scheme", components: [.constant("string")]).urlString())
+    }
+    
+    func testUrl_WhenCalled_ShouldReturnCorrectUrlString() throws {
+        try XCTAssertEqual(URL(string: "scheme://string")!, URLBlueprint(scheme: "scheme", components: [.constant("string")]).url())
+    }
 }
 
 private func XCTAssertMatch(_ blueprint: URLBlueprint, _ url: URL) {
