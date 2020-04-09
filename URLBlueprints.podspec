@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = "URLBlueprints"
-  spec.version      = "0.0.1"
+  spec.version      = "0.0.2"
   spec.summary      = "URLBlueprints is a multiplatform tool for dynamic deeplinks handling & routing."
   spec.description = <<-DESC
   URLBlueprints is a multiplatform tool for deeplinks handling & routing. It allows to define and register blueprints that acts as pattern for deeplink matching.
