@@ -52,7 +52,7 @@ public enum DeeplinkBlueprintComponent: Hashable {
         }
     }
     
-    public static func ~> (blueprintComponent: DeeplinkBlueprintComponent, pathComponent: String) throws -> DeeplinkBlueprintComponent {
+    public static func <~ (blueprintComponent: DeeplinkBlueprintComponent, pathComponent: String) throws -> DeeplinkBlueprintComponent {
         switch blueprintComponent {
         case .wildcard, .constant: return blueprintComponent
         case .intPlaceholder, .int:

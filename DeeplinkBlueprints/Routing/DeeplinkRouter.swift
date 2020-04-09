@@ -27,7 +27,7 @@ public final class DeeplinkRouter<DeeplinkType>: PDeeplinkRouter {
     public func route(forUrl url: URL) -> Route<DeeplinkType> {
         guard let routeDescription = routes.first(where: {$0.0 ~= url }) else { return .error(.notFound) }
         do {
-            let parsedDeeplink = try routeDescription.0 ~> url
+            let parsedDeeplink = try routeDescription.0 <~ url
             return routeDescription.1(parsedDeeplink)
         } catch let error where error is DeeplinkBlueprintError {
             return .error(.parsingError(error as! DeeplinkBlueprintError))

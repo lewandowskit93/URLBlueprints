@@ -6,8 +6,8 @@
 //  Copyright © 2020 LionSoftware.org. All rights reserved.
 //
 
-public func ~> (deeplinkComponents: [DeeplinkBlueprintComponent], pathComponents: [String]) throws -> [DeeplinkBlueprintComponent] {
+public func <~ (deeplinkComponents: [DeeplinkBlueprintComponent], pathComponents: [String]) throws -> [DeeplinkBlueprintComponent] {
     guard deeplinkComponents.count == pathComponents.count else { throw DeeplinkBlueprintError.invalidComponentCount }
     return try zip(deeplinkComponents, pathComponents)
-        .map { try $0 ~> $1 }
+        .map { try $0 <~ $1 }
 }

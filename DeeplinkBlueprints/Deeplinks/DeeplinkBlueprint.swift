@@ -36,9 +36,9 @@ public struct DeeplinkBlueprint: Hashable {
             && (blueprint.components ~= url.components)
     }
     
-    public static func ~> (blueprint: DeeplinkBlueprint, url: URL) throws -> DeeplinkBlueprint {
+    public static func <~ (blueprint: DeeplinkBlueprint, url: URL) throws -> DeeplinkBlueprint {
         guard checkScheme(ofURL: url, matching: blueprint.scheme) else { throw DeeplinkBlueprintError.invalidScheme }
-        return try DeeplinkBlueprint(scheme: blueprint.scheme, components: blueprint.components ~> url.components)
+        return try DeeplinkBlueprint(scheme: blueprint.scheme, components: blueprint.components <~ url.components)
     }
     
     private static func checkScheme(ofURL url: URL, matching scheme: String) -> Bool {

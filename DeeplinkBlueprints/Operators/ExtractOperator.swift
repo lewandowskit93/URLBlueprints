@@ -6,4 +6,4 @@
 //  Copyright © 2020 LionSoftware.org. All rights reserved.
 //
 
-infix operator ~>
+infix operator <~
