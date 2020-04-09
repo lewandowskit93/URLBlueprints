@@ -66,6 +66,10 @@
 		EA4E326DF654F5EB74073156 /* Pods_DeeplinkBlueprintsTests_tvOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 359B8762AC0B080832C29DFE /* Pods_DeeplinkBlueprintsTests_tvOS.framework */; };
 		EFDAFEC561F45BD8892D2486 /* DeeplinkBlueprintError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA1A6EC9F5DBC19D64BCB00 /* DeeplinkBlueprintError.swift */; };
 		F0B593D22E3F3986EAEB2676 /* RouteError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87BD840822398B129D6DEB4A /* RouteError.swift */; };
+		F123FA53243EA6AE006664B8 /* DeeplinkBlueprint.swift in Sources */ = {isa = PBXBuildFile; fileRef = F123FA52243EA6AE006664B8 /* DeeplinkBlueprint.swift */; };
+		F123FA54243EA6AE006664B8 /* DeeplinkBlueprint.swift in Sources */ = {isa = PBXBuildFile; fileRef = F123FA52243EA6AE006664B8 /* DeeplinkBlueprint.swift */; };
+		F123FA55243EA6AE006664B8 /* DeeplinkBlueprint.swift in Sources */ = {isa = PBXBuildFile; fileRef = F123FA52243EA6AE006664B8 /* DeeplinkBlueprint.swift */; };
+		F123FA56243EA6AE006664B8 /* DeeplinkBlueprint.swift in Sources */ = {isa = PBXBuildFile; fileRef = F123FA52243EA6AE006664B8 /* DeeplinkBlueprint.swift */; };
 		F422D316029E0AA184C665CB /* DeeplinkBlueprintComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6A22E594AF265E1B1196E6 /* DeeplinkBlueprintComponent.swift */; };
 		FB1534000766B9056AE361BA /* DeeplinkBlueprintComponentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FEE0CA989A8E295552900DC /* DeeplinkBlueprintComponentTests.swift */; };
 		FB9151D8E510B8FF4E42E95A /* DeeplinkBlueprintComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6A22E594AF265E1B1196E6 /* DeeplinkBlueprintComponent.swift */; };
@@ -199,6 +203,7 @@
 		E3FD74D41C21E46A8A355321 /* Pods-DeeplinkBlueprints_tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DeeplinkBlueprints_tvOS.release.xcconfig"; path = "Target Support Files/Pods-DeeplinkBlueprints_tvOS/Pods-DeeplinkBlueprints_tvOS.release.xcconfig"; sourceTree = "<group>"; };
 		E56742A7389D181F6B351B62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		ECEBC4DDDD12F01CC4C2FBDD /* Pods-DeeplinkBlueprints_macOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DeeplinkBlueprints_macOS.release.xcconfig"; path = "Target Support Files/Pods-DeeplinkBlueprints_macOS/Pods-DeeplinkBlueprints_macOS.release.xcconfig"; sourceTree = "<group>"; };
+		F123FA52243EA6AE006664B8 /* DeeplinkBlueprint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeeplinkBlueprint.swift; sourceTree = "<group>"; };
 		F3618FDF3D90437985D61858 /* Pods_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5E9566C398EDC1F34333E50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -377,6 +382,7 @@
 			isa = PBXGroup;
 			children = (
 				DB6A22E594AF265E1B1196E6 /* DeeplinkBlueprintComponent.swift */,
+				F123FA52243EA6AE006664B8 /* DeeplinkBlueprint.swift */,
 			);
 			path = Deeplinks;
 			sourceTree = "<group>";
@@ -401,7 +407,6 @@
 				C435A577CB8D94051F5A071F /* Pods-Example.debug.xcconfig */,
 				779ADAB3037E3B92DEB732B5 /* Pods-Example.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -906,6 +911,7 @@
 				207F9919B57ABEE7964E1BD0 /* DeeplinkBlueprintError.swift in Sources */,
 				B5D2A1674807F90304DF6626 /* ExtractOperator.swift in Sources */,
 				B81F5580FDB38CADF1D2032B /* MatchOperator.swift in Sources */,
+				F123FA55243EA6AE006664B8 /* DeeplinkBlueprint.swift in Sources */,
 				472FFA817E73A012AC0D415C /* Route.swift in Sources */,
 				2A71C0068944207317ECE19C /* RouteError.swift in Sources */,
 			);
@@ -929,6 +935,7 @@
 				4AE7857573F32E62FCAE31C9 /* DeeplinkBlueprintError.swift in Sources */,
 				D2F297982B12497C5B28189C /* ExtractOperator.swift in Sources */,
 				B0927DDA8C6020DF2E68ED48 /* MatchOperator.swift in Sources */,
+				F123FA53243EA6AE006664B8 /* DeeplinkBlueprint.swift in Sources */,
 				8457431767B2D5567A3AE29E /* Route.swift in Sources */,
 				C1EBD9E818A55165DC76F62E /* RouteError.swift in Sources */,
 			);
@@ -944,6 +951,7 @@
 				1131988B04F41D80FE02BECA /* DeeplinkBlueprintError.swift in Sources */,
 				4EFA9F7A42A943749ACEA412 /* ExtractOperator.swift in Sources */,
 				E5634DBC5F02E10BB07555AF /* MatchOperator.swift in Sources */,
+				F123FA54243EA6AE006664B8 /* DeeplinkBlueprint.swift in Sources */,
 				24CD5343468834AB202E5A7D /* Route.swift in Sources */,
 				552A43A3748C3A035202FE7A /* RouteError.swift in Sources */,
 			);
@@ -959,6 +967,7 @@
 				EFDAFEC561F45BD8892D2486 /* DeeplinkBlueprintError.swift in Sources */,
 				4AF5F0710DF3B4B5D0E177D3 /* ExtractOperator.swift in Sources */,
 				99D9316257F5B9B8F65EEC0D /* MatchOperator.swift in Sources */,
+				F123FA56243EA6AE006664B8 /* DeeplinkBlueprint.swift in Sources */,
 				DBB877C3C3FC70BBBF138B93 /* Route.swift in Sources */,
 				F0B593D22E3F3986EAEB2676 /* RouteError.swift in Sources */,
 			);
