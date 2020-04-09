@@ -1,0 +1,1578 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		034C899988528D0443C47EE9 /* DeeplinkBlueprintError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 556B42518BED2091C8673C2B /* DeeplinkBlueprintError.swift */; };
+		03775A9AE183D3BEB45368C9 /* DeeplinkBlueprintsTests_macOS-Bridging-Header.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D0BD45562EA3F4262966C2B /* DeeplinkBlueprintsTests_macOS-Bridging-Header.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0804246CD42DED03CD3A3556 /* PURLRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 131CC643E77795EC189B9E04 /* PURLRouter.swift */; };
+		089A3DD4C24FDC6C01DE6DF7 /* DeeplinkBlueprintsTests_tvOS-Bridging-Header.h in Headers */ = {isa = PBXBuildFile; fileRef = 08571F4B90DE19A41082DFD4 /* DeeplinkBlueprintsTests_tvOS-Bridging-Header.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		08C19109A6EED166243160D6 /* URLBlueprintComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 769E0BA0F9F5C9EB698CE0F2 /* URLBlueprintComponent.swift */; };
+		095674DFF55F77C7DA5371B9 /* DeeplinkBlueprintError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 556B42518BED2091C8673C2B /* DeeplinkBlueprintError.swift */; };
+		0D0F8659925AF41FFA2FE575 /* Pods_URLBlueprintsTests_tvOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 745CA86A3A1BE46475A9B73B /* Pods_URLBlueprintsTests_tvOS.framework */; };
+		0D33EF219B00450D69786062 /* URLBlueprints.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F754F48A02AB7A498463C55C /* URLBlueprints.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		0E7F792A47EFD37442DD5BF8 /* DeeplinkBlueprintsTests_iOS-Bridging-Header.h in Headers */ = {isa = PBXBuildFile; fileRef = 5626193DC1C791D9D61A3369 /* DeeplinkBlueprintsTests_iOS-Bridging-Header.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		10C63EE78B25AB50C24316C1 /* DeeplinkBlueprintsTests_iOS-Bridging-Header.h in Headers */ = {isa = PBXBuildFile; fileRef = 5626193DC1C791D9D61A3369 /* DeeplinkBlueprintsTests_iOS-Bridging-Header.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		170E3B87FAF5D5A806857306 /* DeeplinkBlueprintComponentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485F770E959A4662DAFF85B6 /* DeeplinkBlueprintComponentTests.swift */; };
+		189E67362203D882256579EF /* RouteError.swift in Sources */ = {isa = PBXBuildFile; fileRef = C81991F069B244FB8E50EC7D /* RouteError.swift */; };
+		2178E2034E5CF5D0F52E2027 /* Pods_URLBlueprints_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D5B5595852DCE46771A445D /* Pods_URLBlueprints_iOS.framework */; };
+		32E1D0C470A0FC973EA43254 /* URLBlueprintComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 769E0BA0F9F5C9EB698CE0F2 /* URLBlueprintComponent.swift */; };
+		39D3BEB1EE8DCC3E938C5142 /* DeeplinkBlueprintError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 556B42518BED2091C8673C2B /* DeeplinkBlueprintError.swift */; };
+		412E9B8116340C16766704DD /* URLBlueprint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07920698F8DD12374262A58D /* URLBlueprint.swift */; };
+		425A3E61C465B2A4FB8C8FA9 /* MatchOperator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 977AA43BF66FF65814A8FF73 /* MatchOperator.swift */; };
+		42889FAED5E3A606A210D945 /* Counted.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27514D15B7A707230163D113 /* Counted.swift */; };
+		447D1D6502B2AB4AF6D7C305 /* URLBlueprint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07920698F8DD12374262A58D /* URLBlueprint.swift */; };
+		45EB1C9F9CDDDA4F8A104CB7 /* DeeplinkBlueprintsTests_iOS-Bridging-Header.h in Headers */ = {isa = PBXBuildFile; fileRef = 5626193DC1C791D9D61A3369 /* DeeplinkBlueprintsTests_iOS-Bridging-Header.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		493793DA43ECA192D4598F4C /* DeeplinkBlueprintsTests_macOS-Bridging-Header.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D0BD45562EA3F4262966C2B /* DeeplinkBlueprintsTests_macOS-Bridging-Header.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4A5F114CF9546E9DF6C578CE /* ExtractOperator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38AA07D2C367F09E62CA7385 /* ExtractOperator.swift */; };
+		4FA12565B539FE4C0E296A27 /* RouteError.swift in Sources */ = {isa = PBXBuildFile; fileRef = C81991F069B244FB8E50EC7D /* RouteError.swift */; };
+		52E283CD730EBE5A5D76428D /* Route.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61FBE7240E985C2E033C91D9 /* Route.swift */; };
+		52FAC53B00F67B584054790D /* URLBlueprints.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F754F48A02AB7A498463C55C /* URLBlueprints.framework */; };
+		53BFD3AA9C19DE2425A2C31D /* PURLRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 131CC643E77795EC189B9E04 /* PURLRouter.swift */; };
+		543218091C0D05FF3FDEBFBE /* URLRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C0CE723107CE781FE366A7F /* URLRouter.swift */; };
+		554894C6CEE4C1FFAC8F850C /* URLBlueprints.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F754F48A02AB7A498463C55C /* URLBlueprints.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		56958B44833A27F41F104D53 /* PURLRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 131CC643E77795EC189B9E04 /* PURLRouter.swift */; };
+		5B9009053F17B4DD770A73C5 /* Array+Extract.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC0F07C474956795F9362C9 /* Array+Extract.swift */; };
+		611065EE11F1C74BF87AE3A9 /* ExtractOperator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38AA07D2C367F09E62CA7385 /* ExtractOperator.swift */; };
+		65EE9F69B7ADB84925E9B29E /* RouteError.swift in Sources */ = {isa = PBXBuildFile; fileRef = C81991F069B244FB8E50EC7D /* RouteError.swift */; };
+		66C6A6CD19A9E251D1C03B31 /* Pods_URLBlueprints_tvOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DF4304D6D77DF3DDDD2D3A0 /* Pods_URLBlueprints_tvOS.framework */; };
+		68163624E3B23396723DA920 /* RouteError.swift in Sources */ = {isa = PBXBuildFile; fileRef = C81991F069B244FB8E50EC7D /* RouteError.swift */; };
+		6B413E2ADC57142DF57C24E6 /* URLBlueprint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07920698F8DD12374262A58D /* URLBlueprint.swift */; };
+		6B836EC3FA583B52004B5515 /* Route.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61FBE7240E985C2E033C91D9 /* Route.swift */; };
+		6C3177EB790A75EB37E02D7B /* MatchOperator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 977AA43BF66FF65814A8FF73 /* MatchOperator.swift */; };
+		739D4B6F72DAAC365032452D /* URLRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C0CE723107CE781FE366A7F /* URLRouter.swift */; };
+		76710C879A15B9BEA4A9DB87 /* MatchOperator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 977AA43BF66FF65814A8FF73 /* MatchOperator.swift */; };
+		78F0DE7FC3646416EC7CCF5A /* Array+Match.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BB026E2114AB270017CEAB4 /* Array+Match.swift */; };
+		7B2234DF05DAE2506E87BDF7 /* URLBlueprints.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F754F48A02AB7A498463C55C /* URLBlueprints.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		7BCDCBF77522955440D0672A /* Pods_URLBlueprints_watchOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07CD234FAFFBABEE555E56F8 /* Pods_URLBlueprints_watchOS.framework */; };
+		8792B266F3380F0E1172C1C0 /* Array+Match.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BB026E2114AB270017CEAB4 /* Array+Match.swift */; };
+		890653E4CE33B44EF746422A /* Array+Extract.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC0F07C474956795F9362C9 /* Array+Extract.swift */; };
+		8C6A3824FE982EDD9DD7DFB4 /* Pods_URLBlueprints_macOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C39DC7CB96AA65114393A7A8 /* Pods_URLBlueprints_macOS.framework */; };
+		9034DCECE3FCCF6C6604C759 /* Counted.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27514D15B7A707230163D113 /* Counted.swift */; };
+		92AA3D964C68A8FB3EBF0125 /* DeeplinkBlueprintComponentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485F770E959A4662DAFF85B6 /* DeeplinkBlueprintComponentTests.swift */; };
+		932AA5253CA1F963EBA8F647 /* Pods_URLBlueprintsTests_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52EAE7C4BF27724436FB62AE /* Pods_URLBlueprintsTests_iOS.framework */; };
+		94FEA560F72C1760E9D64585 /* DeeplinkBlueprintError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 556B42518BED2091C8673C2B /* DeeplinkBlueprintError.swift */; };
+		95C43D0DEAFD26BBD259467F /* URLBlueprints.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F754F48A02AB7A498463C55C /* URLBlueprints.framework */; };
+		962F14E9FD6C96073029D540 /* URLRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C0CE723107CE781FE366A7F /* URLRouter.swift */; };
+		99BF3A9CC864A0C942502348 /* DeeplinkBlueprintsTests_tvOS-Bridging-Header.h in Headers */ = {isa = PBXBuildFile; fileRef = 08571F4B90DE19A41082DFD4 /* DeeplinkBlueprintsTests_tvOS-Bridging-Header.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9A751060456BF00B93B314B6 /* DeeplinkBlueprintsTests_tvOS-Bridging-Header.h in Headers */ = {isa = PBXBuildFile; fileRef = 08571F4B90DE19A41082DFD4 /* DeeplinkBlueprintsTests_tvOS-Bridging-Header.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A0ECA20AEFC4BBFDD5D89E14 /* DeeplinkBlueprintsTests_tvOS-Bridging-Header.h in Headers */ = {isa = PBXBuildFile; fileRef = 08571F4B90DE19A41082DFD4 /* DeeplinkBlueprintsTests_tvOS-Bridging-Header.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A3B826C038AE38907716E3DB /* URLBlueprintComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 769E0BA0F9F5C9EB698CE0F2 /* URLBlueprintComponent.swift */; };
+		A7143451FA1832CBB1092620 /* DeeplinkBlueprintComponentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485F770E959A4662DAFF85B6 /* DeeplinkBlueprintComponentTests.swift */; };
+		A7356B9F76A1495E5A197577 /* Pods_URLBlueprintsTests_macOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6C71FB41D20D050CEA6F672 /* Pods_URLBlueprintsTests_macOS.framework */; };
+		ABC23BC7283C85D640053246 /* URLBlueprints.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F754F48A02AB7A498463C55C /* URLBlueprints.framework */; };
+		AEC38ACB9E42F018C56DE06F /* URLRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C0CE723107CE781FE366A7F /* URLRouter.swift */; };
+		B4C704B7C85C6FEE470C447B /* Array+Extract.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC0F07C474956795F9362C9 /* Array+Extract.swift */; };
+		B4CF86697B4408B073E33FBD /* DeeplinkBlueprintsTests_iOS-Bridging-Header.h in Headers */ = {isa = PBXBuildFile; fileRef = 5626193DC1C791D9D61A3369 /* DeeplinkBlueprintsTests_iOS-Bridging-Header.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BB30F97EC28FEC330A348FDA /* Counted.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27514D15B7A707230163D113 /* Counted.swift */; };
+		BEF1D6B926F27600E235988D /* Array+Match.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BB026E2114AB270017CEAB4 /* Array+Match.swift */; };
+		C64686B1A09CA837F22B52A8 /* DeeplinkBlueprintsTests_macOS-Bridging-Header.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D0BD45562EA3F4262966C2B /* DeeplinkBlueprintsTests_macOS-Bridging-Header.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C6E9EE2B78BDEAF6825BFDA3 /* ExampleDeeplinks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 707A32F5EEEB80EAC401F2BF /* ExampleDeeplinks.swift */; };
+		C713131A5ABBDCAF24375553 /* ExtractOperator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38AA07D2C367F09E62CA7385 /* ExtractOperator.swift */; };
+		C83CCF2F712F6D927FE6A652 /* PURLRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 131CC643E77795EC189B9E04 /* PURLRouter.swift */; };
+		CC0AA8956C79D3D5584B6C4E /* Array+Extract.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC0F07C474956795F9362C9 /* Array+Extract.swift */; };
+		D008C796E31170B5A457E6E2 /* Array+Match.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BB026E2114AB270017CEAB4 /* Array+Match.swift */; };
+		D176C436C8A8F0441FFE4F14 /* Pods_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3973F2C454BCB8E25C8A62B6 /* Pods_Example.framework */; };
+		D586E8CBBD2CB6C833B2075B /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F05ABA92C85E993D809243D /* main.swift */; };
+		DA2E59530C946AD64EC9BE55 /* ExtractOperator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38AA07D2C367F09E62CA7385 /* ExtractOperator.swift */; };
+		DA6E2EBE6CE0489F3A1406BF /* Counted.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27514D15B7A707230163D113 /* Counted.swift */; };
+		DCB95C669AFF3F8B0C36BCAD /* URLBlueprint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07920698F8DD12374262A58D /* URLBlueprint.swift */; };
+		DDD369BC700FB9BEAF4FBB56 /* ExampleDeeplinkBlueprints.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD92C0CAC9797A2CF3B8A28A /* ExampleDeeplinkBlueprints.swift */; };
+		DFA4F3C76FE88D3AA4996673 /* URLBlueprints.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F754F48A02AB7A498463C55C /* URLBlueprints.framework */; };
+		E065A0439E78120A5A320BAA /* URLBlueprintComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 769E0BA0F9F5C9EB698CE0F2 /* URLBlueprintComponent.swift */; };
+		E39A03AC55F477950D65FA85 /* DeeplinkBlueprintsTests_macOS-Bridging-Header.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D0BD45562EA3F4262966C2B /* DeeplinkBlueprintsTests_macOS-Bridging-Header.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E6403163FEA6DE3C232759BA /* Route.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61FBE7240E985C2E033C91D9 /* Route.swift */; };
+		EFB452B7E09F422B4DC6C311 /* Route.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61FBE7240E985C2E033C91D9 /* Route.swift */; };
+		FAFBC502C1C4F7221F0F8CDE /* MatchOperator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 977AA43BF66FF65814A8FF73 /* MatchOperator.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BBBB036A26B2A153677FD960 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FD37A9B970CD5BB2795849AA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 972231AE9DE4E3B3873619E1;
+			remoteInfo = URLBlueprints_macOS;
+		};
+		D54C3CDFC2E93E61161E54BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FD37A9B970CD5BB2795849AA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 972231AE9DE4E3B3873619E1;
+			remoteInfo = URLBlueprints_macOS;
+		};
+		E900818C3331ECD84096A5C8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FD37A9B970CD5BB2795849AA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 972231AE9DE4E3B3873619E1;
+			remoteInfo = URLBlueprints_macOS;
+		};
+		F1E8285DC01923F43D3F7C19 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FD37A9B970CD5BB2795849AA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 972231AE9DE4E3B3873619E1;
+			remoteInfo = URLBlueprints_macOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		196DBA2F52DCC6759E4B10DF /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				554894C6CEE4C1FFAC8F850C /* URLBlueprints.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		666E00CEE334D5E799E65F5E /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				0D33EF219B00450D69786062 /* URLBlueprints.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5849D21C69457641C70EEBA /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				7B2234DF05DAE2506E87BDF7 /* URLBlueprints.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		074969B4730A6A6441C49410 /* URLBlueprints.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = URLBlueprints.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		07920698F8DD12374262A58D /* URLBlueprint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLBlueprint.swift; sourceTree = "<group>"; };
+		07CD234FAFFBABEE555E56F8 /* Pods_URLBlueprints_watchOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_URLBlueprints_watchOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		08571F4B90DE19A41082DFD4 /* DeeplinkBlueprintsTests_tvOS-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DeeplinkBlueprintsTests_tvOS-Bridging-Header.h"; sourceTree = "<group>"; };
+		131CC643E77795EC189B9E04 /* PURLRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PURLRouter.swift; sourceTree = "<group>"; };
+		192FB62258902006D55B8136 /* Pods-URLBlueprintsTests_iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-URLBlueprintsTests_iOS.debug.xcconfig"; path = "Target Support Files/Pods-URLBlueprintsTests_iOS/Pods-URLBlueprintsTests_iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		1A7E62C7583902920371A5C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		27514D15B7A707230163D113 /* Counted.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Counted.swift; sourceTree = "<group>"; };
+		2DC0F07C474956795F9362C9 /* Array+Extract.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Extract.swift"; sourceTree = "<group>"; };
+		2DC92D4495B0FC52A29B7497 /* Debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Debug.xcconfig; sourceTree = "<group>"; };
+		3570FD1BD39FC3C8E4D3878A /* Pods-URLBlueprints_iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-URLBlueprints_iOS.release.xcconfig"; path = "Target Support Files/Pods-URLBlueprints_iOS/Pods-URLBlueprints_iOS.release.xcconfig"; sourceTree = "<group>"; };
+		38AA07D2C367F09E62CA7385 /* ExtractOperator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtractOperator.swift; sourceTree = "<group>"; };
+		3973F2C454BCB8E25C8A62B6 /* Pods_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E7B783662E3993C58EE9F80 /* Pods-URLBlueprintsTests_iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-URLBlueprintsTests_iOS.release.xcconfig"; path = "Target Support Files/Pods-URLBlueprintsTests_iOS/Pods-URLBlueprintsTests_iOS.release.xcconfig"; sourceTree = "<group>"; };
+		404A34BD5BB1CBDB0FCFA3B8 /* Pods-URLBlueprintsTests_macOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-URLBlueprintsTests_macOS.debug.xcconfig"; path = "Target Support Files/Pods-URLBlueprintsTests_macOS/Pods-URLBlueprintsTests_macOS.debug.xcconfig"; sourceTree = "<group>"; };
+		453D66C43CB0AB0182A942BC /* Pods-URLBlueprints_watchOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-URLBlueprints_watchOS.release.xcconfig"; path = "Target Support Files/Pods-URLBlueprints_watchOS/Pods-URLBlueprints_watchOS.release.xcconfig"; sourceTree = "<group>"; };
+		485F770E959A4662DAFF85B6 /* DeeplinkBlueprintComponentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeeplinkBlueprintComponentTests.swift; sourceTree = "<group>"; };
+		49D85D9A81DE768DA2EF7A0E /* Pods-URLBlueprints_macOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-URLBlueprints_macOS.debug.xcconfig"; path = "Target Support Files/Pods-URLBlueprints_macOS/Pods-URLBlueprints_macOS.debug.xcconfig"; sourceTree = "<group>"; };
+		4DF4304D6D77DF3DDDD2D3A0 /* Pods_URLBlueprints_tvOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_URLBlueprints_tvOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F05ABA92C85E993D809243D /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		4F6B13075F5C6696CBD29AA5 /* Pods-URLBlueprintsTests_tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-URLBlueprintsTests_tvOS.debug.xcconfig"; path = "Target Support Files/Pods-URLBlueprintsTests_tvOS/Pods-URLBlueprintsTests_tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		522E4D944E91C7980ED228EA /* URLBlueprintsTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = URLBlueprintsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		52B5AB35EA456663348827C5 /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
+		52EAE7C4BF27724436FB62AE /* Pods_URLBlueprintsTests_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_URLBlueprintsTests_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		556B42518BED2091C8673C2B /* DeeplinkBlueprintError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeeplinkBlueprintError.swift; sourceTree = "<group>"; };
+		5626193DC1C791D9D61A3369 /* DeeplinkBlueprintsTests_iOS-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DeeplinkBlueprintsTests_iOS-Bridging-Header.h"; sourceTree = "<group>"; };
+		5F9B361C352A75BFC4D211C9 /* URLBlueprintsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = URLBlueprintsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		60D29C35BDD560A9B8F911F3 /* Pods-Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Example.release.xcconfig"; path = "Target Support Files/Pods-Example/Pods-Example.release.xcconfig"; sourceTree = "<group>"; };
+		61FBE7240E985C2E033C91D9 /* Route.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Route.swift; sourceTree = "<group>"; };
+		6A302B7C5BD71299C0F6E977 /* Pods-URLBlueprints_watchOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-URLBlueprints_watchOS.debug.xcconfig"; path = "Target Support Files/Pods-URLBlueprints_watchOS/Pods-URLBlueprints_watchOS.debug.xcconfig"; sourceTree = "<group>"; };
+		6C0CE723107CE781FE366A7F /* URLRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLRouter.swift; sourceTree = "<group>"; };
+		6C2750A8351602528C58E26A /* Pods-Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Example.debug.xcconfig"; path = "Target Support Files/Pods-Example/Pods-Example.debug.xcconfig"; sourceTree = "<group>"; };
+		707A32F5EEEB80EAC401F2BF /* ExampleDeeplinks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleDeeplinks.swift; sourceTree = "<group>"; };
+		745CA86A3A1BE46475A9B73B /* Pods_URLBlueprintsTests_tvOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_URLBlueprintsTests_tvOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		74A2A717571B775E91C49FE2 /* Pods-URLBlueprints_tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-URLBlueprints_tvOS.debug.xcconfig"; path = "Target Support Files/Pods-URLBlueprints_tvOS/Pods-URLBlueprints_tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		769E0BA0F9F5C9EB698CE0F2 /* URLBlueprintComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLBlueprintComponent.swift; sourceTree = "<group>"; };
+		7BB026E2114AB270017CEAB4 /* Array+Match.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Match.swift"; sourceTree = "<group>"; };
+		83217A9067EA86F1F333D73F /* Pods-URLBlueprints_macOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-URLBlueprints_macOS.release.xcconfig"; path = "Target Support Files/Pods-URLBlueprints_macOS/Pods-URLBlueprints_macOS.release.xcconfig"; sourceTree = "<group>"; };
+		8325C6C8AE2B29770DF28A4D /* Common.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Common.xcconfig; sourceTree = "<group>"; };
+		8C0E4197E821232D3AAB906C /* Example */ = {isa = PBXFileReference; includeInIndex = 0; path = Example; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D0BD45562EA3F4262966C2B /* DeeplinkBlueprintsTests_macOS-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DeeplinkBlueprintsTests_macOS-Bridging-Header.h"; sourceTree = "<group>"; };
+		8D5B5595852DCE46771A445D /* Pods_URLBlueprints_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_URLBlueprints_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		977AA43BF66FF65814A8FF73 /* MatchOperator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchOperator.swift; sourceTree = "<group>"; };
+		9AF98A5E0E6CFA9343EA4A30 /* URLBlueprints.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = URLBlueprints.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9EA2F80CD2A79D14683A27A9 /* Pods-URLBlueprints_iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-URLBlueprints_iOS.debug.xcconfig"; path = "Target Support Files/Pods-URLBlueprints_iOS/Pods-URLBlueprints_iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		B6C71FB41D20D050CEA6F672 /* Pods_URLBlueprintsTests_macOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_URLBlueprintsTests_macOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C39DC7CB96AA65114393A7A8 /* Pods_URLBlueprints_macOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_URLBlueprints_macOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6B07576228CDB25845AC72D /* Pods-URLBlueprintsTests_macOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-URLBlueprintsTests_macOS.release.xcconfig"; path = "Target Support Files/Pods-URLBlueprintsTests_macOS/Pods-URLBlueprintsTests_macOS.release.xcconfig"; sourceTree = "<group>"; };
+		C81991F069B244FB8E50EC7D /* RouteError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteError.swift; sourceTree = "<group>"; };
+		CAB29B819AF1177F5AC80B40 /* Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Release.xcconfig; sourceTree = "<group>"; };
+		DCA78B3F6D75A79AD68F275A /* Pods-URLBlueprints_tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-URLBlueprints_tvOS.release.xcconfig"; path = "Target Support Files/Pods-URLBlueprints_tvOS/Pods-URLBlueprints_tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		DD92C0CAC9797A2CF3B8A28A /* ExampleDeeplinkBlueprints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleDeeplinkBlueprints.swift; sourceTree = "<group>"; };
+		EB51924995B8AA8071C1FA9D /* Pods-URLBlueprintsTests_tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-URLBlueprintsTests_tvOS.release.xcconfig"; path = "Target Support Files/Pods-URLBlueprintsTests_tvOS/Pods-URLBlueprintsTests_tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		F0B5E2D4541B6A2885BA5C8A /* URLBlueprints.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = URLBlueprints.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F754F48A02AB7A498463C55C /* URLBlueprints.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = URLBlueprints.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9A38849C2A7C8981F6807C6 /* URLBlueprintsTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = URLBlueprintsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		26A14C5ED1D1AA4AA08C2B77 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95C43D0DEAFD26BBD259467F /* URLBlueprints.framework in Frameworks */,
+				A7356B9F76A1495E5A197577 /* Pods_URLBlueprintsTests_macOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58C0349496189D3E36ACBC10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66C6A6CD19A9E251D1C03B31 /* Pods_URLBlueprints_tvOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DF62E91D8D49A2D1AE14C12 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C6A3824FE982EDD9DD7DFB4 /* Pods_URLBlueprints_macOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BBBAE6AEC2E7E3A49616778 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFA4F3C76FE88D3AA4996673 /* URLBlueprints.framework in Frameworks */,
+				D176C436C8A8F0441FFE4F14 /* Pods_Example.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3476EA283E1652FC155BB34 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABC23BC7283C85D640053246 /* URLBlueprints.framework in Frameworks */,
+				0D0F8659925AF41FFA2FE575 /* Pods_URLBlueprintsTests_tvOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0249DC9AB2509C3ECC216B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BCDCBF77522955440D0672A /* Pods_URLBlueprints_watchOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2D4437C84087B5700C1344D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52FAC53B00F67B584054790D /* URLBlueprints.framework in Frameworks */,
+				932AA5253CA1F963EBA8F647 /* Pods_URLBlueprintsTests_iOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDD140B73AF8DB0E5A643A41 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2178E2034E5CF5D0F52E2027 /* Pods_URLBlueprints_iOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0DFC070C6EF48B44355D07EB /* Errors */ = {
+			isa = PBXGroup;
+			children = (
+				556B42518BED2091C8673C2B /* DeeplinkBlueprintError.swift */,
+				C81991F069B244FB8E50EC7D /* RouteError.swift */,
+			);
+			path = Errors;
+			sourceTree = "<group>";
+		};
+		1D9121D52960372C8EE2DF79 /* Routing */ = {
+			isa = PBXGroup;
+			children = (
+				131CC643E77795EC189B9E04 /* PURLRouter.swift */,
+				61FBE7240E985C2E033C91D9 /* Route.swift */,
+				6C0CE723107CE781FE366A7F /* URLRouter.swift */,
+			);
+			path = Routing;
+			sourceTree = "<group>";
+		};
+		2E9726DDF1ED206F35890AD7 /* Deeplinks */ = {
+			isa = PBXGroup;
+			children = (
+				27514D15B7A707230163D113 /* Counted.swift */,
+				07920698F8DD12374262A58D /* URLBlueprint.swift */,
+				769E0BA0F9F5C9EB698CE0F2 /* URLBlueprintComponent.swift */,
+			);
+			path = Deeplinks;
+			sourceTree = "<group>";
+		};
+		3B6BCF6CE6D6CB0A83954ED4 /* Operators */ = {
+			isa = PBXGroup;
+			children = (
+				38AA07D2C367F09E62CA7385 /* ExtractOperator.swift */,
+				977AA43BF66FF65814A8FF73 /* MatchOperator.swift */,
+			);
+			path = Operators;
+			sourceTree = "<group>";
+		};
+		482F06C0DC2FD861DC223BAE /* Configurations */ = {
+			isa = PBXGroup;
+			children = (
+				8325C6C8AE2B29770DF28A4D /* Common.xcconfig */,
+				2DC92D4495B0FC52A29B7497 /* Debug.xcconfig */,
+				CAB29B819AF1177F5AC80B40 /* Release.xcconfig */,
+			);
+			path = Configurations;
+			sourceTree = "<group>";
+		};
+		4E481AE4FD61435519F7FB2B /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				2DC0F07C474956795F9362C9 /* Array+Extract.swift */,
+				7BB026E2114AB270017CEAB4 /* Array+Match.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		724A5842615B99B37DF07F6E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8C0E4197E821232D3AAB906C /* Example */,
+				074969B4730A6A6441C49410 /* URLBlueprints.framework */,
+				F754F48A02AB7A498463C55C /* URLBlueprints.framework */,
+				F0B5E2D4541B6A2885BA5C8A /* URLBlueprints.framework */,
+				9AF98A5E0E6CFA9343EA4A30 /* URLBlueprints.framework */,
+				F9A38849C2A7C8981F6807C6 /* URLBlueprintsTests.xctest */,
+				5F9B361C352A75BFC4D211C9 /* URLBlueprintsTests.xctest */,
+				522E4D944E91C7980ED228EA /* URLBlueprintsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B76B40B7AA72D6686496E3D2 = {
+			isa = PBXGroup;
+			children = (
+				482F06C0DC2FD861DC223BAE /* Configurations */,
+				EAAA8AF9243952885165BDED /* Example */,
+				CE544015FB655B1D4809AECC /* URLBlueprints */,
+				D105EF652EF23915BD5186CB /* URLBlueprintsTests */,
+				52B5AB35EA456663348827C5 /* Package.swift */,
+				724A5842615B99B37DF07F6E /* Products */,
+				F6607B980D0BDFADF1FCFA89 /* Pods */,
+				D6C5E6CB7B27E62D4CAF592F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CE544015FB655B1D4809AECC /* URLBlueprints */ = {
+			isa = PBXGroup;
+			children = (
+				2E9726DDF1ED206F35890AD7 /* Deeplinks */,
+				0DFC070C6EF48B44355D07EB /* Errors */,
+				4E481AE4FD61435519F7FB2B /* Extensions */,
+				3B6BCF6CE6D6CB0A83954ED4 /* Operators */,
+				1D9121D52960372C8EE2DF79 /* Routing */,
+				5626193DC1C791D9D61A3369 /* DeeplinkBlueprintsTests_iOS-Bridging-Header.h */,
+				8D0BD45562EA3F4262966C2B /* DeeplinkBlueprintsTests_macOS-Bridging-Header.h */,
+				08571F4B90DE19A41082DFD4 /* DeeplinkBlueprintsTests_tvOS-Bridging-Header.h */,
+				1A7E62C7583902920371A5C7 /* Info.plist */,
+			);
+			path = URLBlueprints;
+			sourceTree = "<group>";
+		};
+		D105EF652EF23915BD5186CB /* URLBlueprintsTests */ = {
+			isa = PBXGroup;
+			children = (
+				485F770E959A4662DAFF85B6 /* DeeplinkBlueprintComponentTests.swift */,
+			);
+			path = URLBlueprintsTests;
+			sourceTree = "<group>";
+		};
+		D6C5E6CB7B27E62D4CAF592F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3973F2C454BCB8E25C8A62B6 /* Pods_Example.framework */,
+				52EAE7C4BF27724436FB62AE /* Pods_URLBlueprintsTests_iOS.framework */,
+				B6C71FB41D20D050CEA6F672 /* Pods_URLBlueprintsTests_macOS.framework */,
+				745CA86A3A1BE46475A9B73B /* Pods_URLBlueprintsTests_tvOS.framework */,
+				8D5B5595852DCE46771A445D /* Pods_URLBlueprints_iOS.framework */,
+				C39DC7CB96AA65114393A7A8 /* Pods_URLBlueprints_macOS.framework */,
+				4DF4304D6D77DF3DDDD2D3A0 /* Pods_URLBlueprints_tvOS.framework */,
+				07CD234FAFFBABEE555E56F8 /* Pods_URLBlueprints_watchOS.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EAAA8AF9243952885165BDED /* Example */ = {
+			isa = PBXGroup;
+			children = (
+				EE6A9A9492F9F0A9FE9972B2 /* Deeplinks */,
+				4F05ABA92C85E993D809243D /* main.swift */,
+			);
+			path = Example;
+			sourceTree = "<group>";
+		};
+		EE6A9A9492F9F0A9FE9972B2 /* Deeplinks */ = {
+			isa = PBXGroup;
+			children = (
+				DD92C0CAC9797A2CF3B8A28A /* ExampleDeeplinkBlueprints.swift */,
+				707A32F5EEEB80EAC401F2BF /* ExampleDeeplinks.swift */,
+			);
+			path = Deeplinks;
+			sourceTree = "<group>";
+		};
+		F6607B980D0BDFADF1FCFA89 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6C2750A8351602528C58E26A /* Pods-Example.debug.xcconfig */,
+				60D29C35BDD560A9B8F911F3 /* Pods-Example.release.xcconfig */,
+				192FB62258902006D55B8136 /* Pods-URLBlueprintsTests_iOS.debug.xcconfig */,
+				3E7B783662E3993C58EE9F80 /* Pods-URLBlueprintsTests_iOS.release.xcconfig */,
+				404A34BD5BB1CBDB0FCFA3B8 /* Pods-URLBlueprintsTests_macOS.debug.xcconfig */,
+				C6B07576228CDB25845AC72D /* Pods-URLBlueprintsTests_macOS.release.xcconfig */,
+				4F6B13075F5C6696CBD29AA5 /* Pods-URLBlueprintsTests_tvOS.debug.xcconfig */,
+				EB51924995B8AA8071C1FA9D /* Pods-URLBlueprintsTests_tvOS.release.xcconfig */,
+				9EA2F80CD2A79D14683A27A9 /* Pods-URLBlueprints_iOS.debug.xcconfig */,
+				3570FD1BD39FC3C8E4D3878A /* Pods-URLBlueprints_iOS.release.xcconfig */,
+				49D85D9A81DE768DA2EF7A0E /* Pods-URLBlueprints_macOS.debug.xcconfig */,
+				83217A9067EA86F1F333D73F /* Pods-URLBlueprints_macOS.release.xcconfig */,
+				74A2A717571B775E91C49FE2 /* Pods-URLBlueprints_tvOS.debug.xcconfig */,
+				DCA78B3F6D75A79AD68F275A /* Pods-URLBlueprints_tvOS.release.xcconfig */,
+				6A302B7C5BD71299C0F6E977 /* Pods-URLBlueprints_watchOS.debug.xcconfig */,
+				453D66C43CB0AB0182A942BC /* Pods-URLBlueprints_watchOS.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		22FA7859610B4F147EEEAB06 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4CF86697B4408B073E33FBD /* DeeplinkBlueprintsTests_iOS-Bridging-Header.h in Headers */,
+				C64686B1A09CA837F22B52A8 /* DeeplinkBlueprintsTests_macOS-Bridging-Header.h in Headers */,
+				A0ECA20AEFC4BBFDD5D89E14 /* DeeplinkBlueprintsTests_tvOS-Bridging-Header.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CCA208D14BCDE7E2CE28359 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E7F792A47EFD37442DD5BF8 /* DeeplinkBlueprintsTests_iOS-Bridging-Header.h in Headers */,
+				03775A9AE183D3BEB45368C9 /* DeeplinkBlueprintsTests_macOS-Bridging-Header.h in Headers */,
+				089A3DD4C24FDC6C01DE6DF7 /* DeeplinkBlueprintsTests_tvOS-Bridging-Header.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87CD37E9CBCE7A0F3B746659 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10C63EE78B25AB50C24316C1 /* DeeplinkBlueprintsTests_iOS-Bridging-Header.h in Headers */,
+				E39A03AC55F477950D65FA85 /* DeeplinkBlueprintsTests_macOS-Bridging-Header.h in Headers */,
+				99BF3A9CC864A0C942502348 /* DeeplinkBlueprintsTests_tvOS-Bridging-Header.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB9879EAF34C899B6F0A0E34 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45EB1C9F9CDDDA4F8A104CB7 /* DeeplinkBlueprintsTests_iOS-Bridging-Header.h in Headers */,
+				493793DA43ECA192D4598F4C /* DeeplinkBlueprintsTests_macOS-Bridging-Header.h in Headers */,
+				9A751060456BF00B93B314B6 /* DeeplinkBlueprintsTests_tvOS-Bridging-Header.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0C1265E77BD843598D337D3F /* URLBlueprints_iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D0CA191D804873EE54C9450 /* Build configuration list for PBXNativeTarget "URLBlueprints_iOS" */;
+			buildPhases = (
+				543B57CC508AF2D3CFBD64CC /* [CP] Check Pods Manifest.lock */,
+				EB9879EAF34C899B6F0A0E34 /* Headers */,
+				02879270BB5A25DCDC332B52 /* Sources */,
+				EDD140B73AF8DB0E5A643A41 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = URLBlueprints_iOS;
+			productName = URLBlueprints_iOS;
+			productReference = 074969B4730A6A6441C49410 /* URLBlueprints.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		14D8B620BC5937A0B1148FF4 /* URLBlueprintsTests_iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F56477C702861D0615FC5308 /* Build configuration list for PBXNativeTarget "URLBlueprintsTests_iOS" */;
+			buildPhases = (
+				E1E569736999F19F7CBB9E80 /* [CP] Check Pods Manifest.lock */,
+				CF06E1BB53EC1EBA386553A4 /* Sources */,
+				E2D4437C84087B5700C1344D /* Frameworks */,
+				666E00CEE334D5E799E65F5E /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				46B263EC71412BF3AF70CCC3 /* PBXTargetDependency */,
+			);
+			name = URLBlueprintsTests_iOS;
+			productName = URLBlueprintsTests_iOS;
+			productReference = F9A38849C2A7C8981F6807C6 /* URLBlueprintsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		198995CA87EDF6CAC3C202F9 /* URLBlueprints_tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA287CD7170C288AA087960D /* Build configuration list for PBXNativeTarget "URLBlueprints_tvOS" */;
+			buildPhases = (
+				5C9B496E1F8E887885EFA4E6 /* [CP] Check Pods Manifest.lock */,
+				87CD37E9CBCE7A0F3B746659 /* Headers */,
+				285EC368E9B3786AECD60F20 /* Sources */,
+				58C0349496189D3E36ACBC10 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = URLBlueprints_tvOS;
+			productName = URLBlueprints_tvOS;
+			productReference = F0B5E2D4541B6A2885BA5C8A /* URLBlueprints.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		219F2F42018775654FD96C39 /* URLBlueprints_watchOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C3AF7FE26F8C89B8D06FB0E /* Build configuration list for PBXNativeTarget "URLBlueprints_watchOS" */;
+			buildPhases = (
+				451B6E5AE9764D8524BC63F3 /* [CP] Check Pods Manifest.lock */,
+				2CCA208D14BCDE7E2CE28359 /* Headers */,
+				05BA11EFCAC8DC2F4435A94F /* Sources */,
+				B0249DC9AB2509C3ECC216B0 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = URLBlueprints_watchOS;
+			productName = URLBlueprints_watchOS;
+			productReference = 9AF98A5E0E6CFA9343EA4A30 /* URLBlueprints.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		972231AE9DE4E3B3873619E1 /* URLBlueprints_macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8915430CB4D999A3665D7931 /* Build configuration list for PBXNativeTarget "URLBlueprints_macOS" */;
+			buildPhases = (
+				6535761A7E07F1846E7CE00E /* [CP] Check Pods Manifest.lock */,
+				22FA7859610B4F147EEEAB06 /* Headers */,
+				8BD7698CF3C3F69B50DFAB50 /* Sources */,
+				5DF62E91D8D49A2D1AE14C12 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = URLBlueprints_macOS;
+			productName = URLBlueprints_macOS;
+			productReference = F754F48A02AB7A498463C55C /* URLBlueprints.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DB999B8E8A5BB965B299D934 /* Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 125BABA0BF911F388EE2A69B /* Build configuration list for PBXNativeTarget "Example" */;
+			buildPhases = (
+				2C8F01E7FF5EADB17EBEB57B /* [CP] Check Pods Manifest.lock */,
+				A03FB14B36E3AE8FA81EAD44 /* Sources */,
+				8BBBAE6AEC2E7E3A49616778 /* Frameworks */,
+				F5642D5B04B80FADAA116E0E /* SwiftLint */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E216BF35517315410454B2AB /* PBXTargetDependency */,
+			);
+			name = Example;
+			productName = Example;
+			productReference = 8C0E4197E821232D3AAB906C /* Example */;
+			productType = "com.apple.product-type.tool";
+		};
+		ED64309E4032DEEF13BC505E /* URLBlueprintsTests_macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2BA6F210870956B022DACFB2 /* Build configuration list for PBXNativeTarget "URLBlueprintsTests_macOS" */;
+			buildPhases = (
+				9E3011F2434311D647C9E0CF /* [CP] Check Pods Manifest.lock */,
+				0F871C9392AA35851008B6BC /* Sources */,
+				26A14C5ED1D1AA4AA08C2B77 /* Frameworks */,
+				196DBA2F52DCC6759E4B10DF /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DE61B782A29C5CBB320ED2E7 /* PBXTargetDependency */,
+			);
+			name = URLBlueprintsTests_macOS;
+			productName = URLBlueprintsTests_macOS;
+			productReference = 5F9B361C352A75BFC4D211C9 /* URLBlueprintsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FA1B0361366C913B4C4336F8 /* URLBlueprintsTests_tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA732EC84DC0D3D3DFDE9574 /* Build configuration list for PBXNativeTarget "URLBlueprintsTests_tvOS" */;
+			buildPhases = (
+				19D2B55D9E09AE91E9A0196B /* [CP] Check Pods Manifest.lock */,
+				89557E176AB2917DF1CFC9DD /* Sources */,
+				A3476EA283E1652FC155BB34 /* Frameworks */,
+				D5849D21C69457641C70EEBA /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D50837DF957C9AB45F656C0B /* PBXTargetDependency */,
+			);
+			name = URLBlueprintsTests_tvOS;
+			productName = URLBlueprintsTests_tvOS;
+			productReference = 522E4D944E91C7980ED228EA /* URLBlueprintsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FD37A9B970CD5BB2795849AA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = LionSoftware.org;
+				TargetAttributes = {
+					0C1265E77BD843598D337D3F = {
+						ProvisioningStyle = Manual;
+					};
+					14D8B620BC5937A0B1148FF4 = {
+						ProvisioningStyle = Manual;
+					};
+					198995CA87EDF6CAC3C202F9 = {
+						ProvisioningStyle = Manual;
+					};
+					219F2F42018775654FD96C39 = {
+						ProvisioningStyle = Manual;
+					};
+					972231AE9DE4E3B3873619E1 = {
+						ProvisioningStyle = Manual;
+					};
+					DB999B8E8A5BB965B299D934 = {
+						ProvisioningStyle = Manual;
+					};
+					ED64309E4032DEEF13BC505E = {
+						ProvisioningStyle = Manual;
+					};
+					FA1B0361366C913B4C4336F8 = {
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = DF6A7871408AB51971953226 /* Build configuration list for PBXProject "URLBlueprints" */;
+			compatibilityVersion = "Xcode 10.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = B76B40B7AA72D6686496E3D2;
+			productRefGroup = 724A5842615B99B37DF07F6E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DB999B8E8A5BB965B299D934 /* Example */,
+				14D8B620BC5937A0B1148FF4 /* URLBlueprintsTests_iOS */,
+				ED64309E4032DEEF13BC505E /* URLBlueprintsTests_macOS */,
+				FA1B0361366C913B4C4336F8 /* URLBlueprintsTests_tvOS */,
+				0C1265E77BD843598D337D3F /* URLBlueprints_iOS */,
+				972231AE9DE4E3B3873619E1 /* URLBlueprints_macOS */,
+				198995CA87EDF6CAC3C202F9 /* URLBlueprints_tvOS */,
+				219F2F42018775654FD96C39 /* URLBlueprints_watchOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		19D2B55D9E09AE91E9A0196B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-URLBlueprintsTests_tvOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2C8F01E7FF5EADB17EBEB57B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Example-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		451B6E5AE9764D8524BC63F3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-URLBlueprints_watchOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		543B57CC508AF2D3CFBD64CC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-URLBlueprints_iOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5C9B496E1F8E887885EFA4E6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-URLBlueprints_tvOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6535761A7E07F1846E7CE00E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-URLBlueprints_macOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9E3011F2434311D647C9E0CF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-URLBlueprintsTests_macOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E1E569736999F19F7CBB9E80 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-URLBlueprintsTests_iOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F5642D5B04B80FADAA116E0E /* SwiftLint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = SwiftLint;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/SwiftLint/swiftlint\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		02879270BB5A25DCDC332B52 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B9009053F17B4DD770A73C5 /* Array+Extract.swift in Sources */,
+				78F0DE7FC3646416EC7CCF5A /* Array+Match.swift in Sources */,
+				9034DCECE3FCCF6C6604C759 /* Counted.swift in Sources */,
+				034C899988528D0443C47EE9 /* DeeplinkBlueprintError.swift in Sources */,
+				4A5F114CF9546E9DF6C578CE /* ExtractOperator.swift in Sources */,
+				76710C879A15B9BEA4A9DB87 /* MatchOperator.swift in Sources */,
+				56958B44833A27F41F104D53 /* PURLRouter.swift in Sources */,
+				E6403163FEA6DE3C232759BA /* Route.swift in Sources */,
+				189E67362203D882256579EF /* RouteError.swift in Sources */,
+				DCB95C669AFF3F8B0C36BCAD /* URLBlueprint.swift in Sources */,
+				A3B826C038AE38907716E3DB /* URLBlueprintComponent.swift in Sources */,
+				543218091C0D05FF3FDEBFBE /* URLRouter.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05BA11EFCAC8DC2F4435A94F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC0AA8956C79D3D5584B6C4E /* Array+Extract.swift in Sources */,
+				D008C796E31170B5A457E6E2 /* Array+Match.swift in Sources */,
+				DA6E2EBE6CE0489F3A1406BF /* Counted.swift in Sources */,
+				095674DFF55F77C7DA5371B9 /* DeeplinkBlueprintError.swift in Sources */,
+				611065EE11F1C74BF87AE3A9 /* ExtractOperator.swift in Sources */,
+				6C3177EB790A75EB37E02D7B /* MatchOperator.swift in Sources */,
+				53BFD3AA9C19DE2425A2C31D /* PURLRouter.swift in Sources */,
+				52E283CD730EBE5A5D76428D /* Route.swift in Sources */,
+				4FA12565B539FE4C0E296A27 /* RouteError.swift in Sources */,
+				412E9B8116340C16766704DD /* URLBlueprint.swift in Sources */,
+				E065A0439E78120A5A320BAA /* URLBlueprintComponent.swift in Sources */,
+				AEC38ACB9E42F018C56DE06F /* URLRouter.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F871C9392AA35851008B6BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7143451FA1832CBB1092620 /* DeeplinkBlueprintComponentTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		285EC368E9B3786AECD60F20 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4C704B7C85C6FEE470C447B /* Array+Extract.swift in Sources */,
+				BEF1D6B926F27600E235988D /* Array+Match.swift in Sources */,
+				BB30F97EC28FEC330A348FDA /* Counted.swift in Sources */,
+				39D3BEB1EE8DCC3E938C5142 /* DeeplinkBlueprintError.swift in Sources */,
+				DA2E59530C946AD64EC9BE55 /* ExtractOperator.swift in Sources */,
+				425A3E61C465B2A4FB8C8FA9 /* MatchOperator.swift in Sources */,
+				0804246CD42DED03CD3A3556 /* PURLRouter.swift in Sources */,
+				6B836EC3FA583B52004B5515 /* Route.swift in Sources */,
+				68163624E3B23396723DA920 /* RouteError.swift in Sources */,
+				6B413E2ADC57142DF57C24E6 /* URLBlueprint.swift in Sources */,
+				32E1D0C470A0FC973EA43254 /* URLBlueprintComponent.swift in Sources */,
+				739D4B6F72DAAC365032452D /* URLRouter.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89557E176AB2917DF1CFC9DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				170E3B87FAF5D5A806857306 /* DeeplinkBlueprintComponentTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BD7698CF3C3F69B50DFAB50 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				890653E4CE33B44EF746422A /* Array+Extract.swift in Sources */,
+				8792B266F3380F0E1172C1C0 /* Array+Match.swift in Sources */,
+				42889FAED5E3A606A210D945 /* Counted.swift in Sources */,
+				94FEA560F72C1760E9D64585 /* DeeplinkBlueprintError.swift in Sources */,
+				C713131A5ABBDCAF24375553 /* ExtractOperator.swift in Sources */,
+				FAFBC502C1C4F7221F0F8CDE /* MatchOperator.swift in Sources */,
+				C83CCF2F712F6D927FE6A652 /* PURLRouter.swift in Sources */,
+				EFB452B7E09F422B4DC6C311 /* Route.swift in Sources */,
+				65EE9F69B7ADB84925E9B29E /* RouteError.swift in Sources */,
+				447D1D6502B2AB4AF6D7C305 /* URLBlueprint.swift in Sources */,
+				08C19109A6EED166243160D6 /* URLBlueprintComponent.swift in Sources */,
+				962F14E9FD6C96073029D540 /* URLRouter.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A03FB14B36E3AE8FA81EAD44 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDD369BC700FB9BEAF4FBB56 /* ExampleDeeplinkBlueprints.swift in Sources */,
+				C6E9EE2B78BDEAF6825BFDA3 /* ExampleDeeplinks.swift in Sources */,
+				D586E8CBBD2CB6C833B2075B /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF06E1BB53EC1EBA386553A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92AA3D964C68A8FB3EBF0125 /* DeeplinkBlueprintComponentTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		46B263EC71412BF3AF70CCC3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 972231AE9DE4E3B3873619E1 /* URLBlueprints_macOS */;
+			targetProxy = D54C3CDFC2E93E61161E54BC /* PBXContainerItemProxy */;
+		};
+		D50837DF957C9AB45F656C0B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 972231AE9DE4E3B3873619E1 /* URLBlueprints_macOS */;
+			targetProxy = F1E8285DC01923F43D3F7C19 /* PBXContainerItemProxy */;
+		};
+		DE61B782A29C5CBB320ED2E7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 972231AE9DE4E3B3873619E1 /* URLBlueprints_macOS */;
+			targetProxy = BBBB036A26B2A153677FD960 /* PBXContainerItemProxy */;
+		};
+		E216BF35517315410454B2AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 972231AE9DE4E3B3873619E1 /* URLBlueprints_macOS */;
+			targetProxy = E900818C3331ECD84096A5C8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		07575D1EFAECA8BBBEEBB742 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 192FB62258902006D55B8136 /* Pods-URLBlueprintsTests_iOS.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.lionsoftware.url-blueprints.tests";
+				PRODUCT_NAME = URLBlueprintsTests;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0E4B6373F3D21B3F759A3F4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2DC92D4495B0FC52A29B7497 /* Debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		18B18B598DF7A4C4824D1969 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 404A34BD5BB1CBDB0FCFA3B8 /* Pods-URLBlueprintsTests_macOS.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.lionsoftware.url-blueprints.tests";
+				PRODUCT_NAME = URLBlueprintsTests;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		20BB19A38190BD8E507F9A52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83217A9067EA86F1F333D73F /* Pods-URLBlueprints_macOS.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = URLBlueprints/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "$(URL_BLUEPRINTS_BUNDLE_IDENTIFIER)";
+				PRODUCT_NAME = URLBlueprints;
+				PROVISIONING_PROFILE_SPECIFIER = "$(URL_BLUEPRINTS_PROVISIONING_PROFILE_SPECIFIER)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		34EB3DE213FF0C6DD29FB658 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C6B07576228CDB25845AC72D /* Pods-URLBlueprintsTests_macOS.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.lionsoftware.url-blueprints.tests";
+				PRODUCT_NAME = URLBlueprintsTests;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		4098B88BA37DA93E534AD90F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E7B783662E3993C58EE9F80 /* Pods-URLBlueprintsTests_iOS.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.lionsoftware.url-blueprints.tests";
+				PRODUCT_NAME = URLBlueprintsTests;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		459A944447EA681571E4AB5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 49D85D9A81DE768DA2EF7A0E /* Pods-URLBlueprints_macOS.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = URLBlueprints/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "$(URL_BLUEPRINTS_BUNDLE_IDENTIFIER)";
+				PRODUCT_NAME = URLBlueprints;
+				PROVISIONING_PROFILE_SPECIFIER = "$(URL_BLUEPRINTS_PROVISIONING_PROFILE_SPECIFIER)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		481781FAECA49B729722DE63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9EA2F80CD2A79D14683A27A9 /* Pods-URLBlueprints_iOS.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = URLBlueprints/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "$(URL_BLUEPRINTS_BUNDLE_IDENTIFIER)";
+				PRODUCT_NAME = URLBlueprints;
+				PROVISIONING_PROFILE_SPECIFIER = "$(URL_BLUEPRINTS_PROVISIONING_PROFILE_SPECIFIER)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		739B4C8E750E6B543B47933B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60D29C35BDD560A9B8F911F3 /* Pods-Example.release.xcconfig */;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.lionsoftware.url-blueprints.example";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		7A42059CB1172B2C802578D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F6B13075F5C6696CBD29AA5 /* Pods-URLBlueprintsTests_tvOS.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.lionsoftware.url-blueprints.tests";
+				PRODUCT_NAME = URLBlueprintsTests;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+			};
+			name = Debug;
+		};
+		80E0E2CCC03220532563ADDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A302B7C5BD71299C0F6E977 /* Pods-URLBlueprints_watchOS.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = URLBlueprints/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "$(URL_BLUEPRINTS_BUNDLE_IDENTIFIER)";
+				PRODUCT_NAME = URLBlueprints;
+				PROVISIONING_PROFILE_SPECIFIER = "$(URL_BLUEPRINTS_PROVISIONING_PROFILE_SPECIFIER)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+			};
+			name = Debug;
+		};
+		8BC8142EBC858126C4E0AF17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3570FD1BD39FC3C8E4D3878A /* Pods-URLBlueprints_iOS.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = URLBlueprints/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "$(URL_BLUEPRINTS_BUNDLE_IDENTIFIER)";
+				PRODUCT_NAME = URLBlueprints;
+				PROVISIONING_PROFILE_SPECIFIER = "$(URL_BLUEPRINTS_PROVISIONING_PROFILE_SPECIFIER)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		90FC94A3694C5E9D8CB283AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C2750A8351602528C58E26A /* Pods-Example.debug.xcconfig */;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.lionsoftware.url-blueprints.example";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		970512848B1DFA166656E7AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 74A2A717571B775E91C49FE2 /* Pods-URLBlueprints_tvOS.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = URLBlueprints/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "$(URL_BLUEPRINTS_BUNDLE_IDENTIFIER)";
+				PRODUCT_NAME = URLBlueprints;
+				PROVISIONING_PROFILE_SPECIFIER = "$(URL_BLUEPRINTS_PROVISIONING_PROFILE_SPECIFIER)";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+			};
+			name = Debug;
+		};
+		A20F09FE5623B34DE1CF9F63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 453D66C43CB0AB0182A942BC /* Pods-URLBlueprints_watchOS.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = URLBlueprints/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "$(URL_BLUEPRINTS_BUNDLE_IDENTIFIER)";
+				PRODUCT_NAME = URLBlueprints;
+				PROVISIONING_PROFILE_SPECIFIER = "$(URL_BLUEPRINTS_PROVISIONING_PROFILE_SPECIFIER)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+			};
+			name = Release;
+		};
+		A80B1E8E6E6CC9F1D5F820EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB51924995B8AA8071C1FA9D /* Pods-URLBlueprintsTests_tvOS.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.lionsoftware.url-blueprints.tests";
+				PRODUCT_NAME = URLBlueprintsTests;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+			};
+			name = Release;
+		};
+		E62E2BD2D6164E32A59F8D46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CAB29B819AF1177F5AC80B40 /* Release.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		F1FD26D329621FB1B5E6A6E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DCA78B3F6D75A79AD68F275A /* Pods-URLBlueprints_tvOS.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = URLBlueprints/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "$(URL_BLUEPRINTS_BUNDLE_IDENTIFIER)";
+				PRODUCT_NAME = URLBlueprints;
+				PROVISIONING_PROFILE_SPECIFIER = "$(URL_BLUEPRINTS_PROVISIONING_PROFILE_SPECIFIER)";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		125BABA0BF911F388EE2A69B /* Build configuration list for PBXNativeTarget "Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90FC94A3694C5E9D8CB283AE /* Debug */,
+				739B4C8E750E6B543B47933B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = "";
+		};
+		2BA6F210870956B022DACFB2 /* Build configuration list for PBXNativeTarget "URLBlueprintsTests_macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18B18B598DF7A4C4824D1969 /* Debug */,
+				34EB3DE213FF0C6DD29FB658 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = "";
+		};
+		2C3AF7FE26F8C89B8D06FB0E /* Build configuration list for PBXNativeTarget "URLBlueprints_watchOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80E0E2CCC03220532563ADDF /* Debug */,
+				A20F09FE5623B34DE1CF9F63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = "";
+		};
+		8915430CB4D999A3665D7931 /* Build configuration list for PBXNativeTarget "URLBlueprints_macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				459A944447EA681571E4AB5E /* Debug */,
+				20BB19A38190BD8E507F9A52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = "";
+		};
+		8D0CA191D804873EE54C9450 /* Build configuration list for PBXNativeTarget "URLBlueprints_iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				481781FAECA49B729722DE63 /* Debug */,
+				8BC8142EBC858126C4E0AF17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = "";
+		};
+		AA732EC84DC0D3D3DFDE9574 /* Build configuration list for PBXNativeTarget "URLBlueprintsTests_tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A42059CB1172B2C802578D5 /* Debug */,
+				A80B1E8E6E6CC9F1D5F820EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = "";
+		};
+		BA287CD7170C288AA087960D /* Build configuration list for PBXNativeTarget "URLBlueprints_tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				970512848B1DFA166656E7AB /* Debug */,
+				F1FD26D329621FB1B5E6A6E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = "";
+		};
+		DF6A7871408AB51971953226 /* Build configuration list for PBXProject "URLBlueprints" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E4B6373F3D21B3F759A3F4F /* Debug */,
+				E62E2BD2D6164E32A59F8D46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		F56477C702861D0615FC5308 /* Build configuration list for PBXNativeTarget "URLBlueprintsTests_iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07575D1EFAECA8BBBEEBB742 /* Debug */,
+				4098B88BA37DA93E534AD90F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = "";
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FD37A9B970CD5BB2795849AA /* Project object */;
+}
