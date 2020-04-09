@@ -36,7 +36,7 @@ class URLRouterTests: XCTestCase {
             }
         }
     }
-    enum Deeplink {
+    enum Deeplink: Equatable {
         case simple
         case user(id: Int)
         case item(id: String)
@@ -60,7 +60,7 @@ class URLRouterTests: XCTestCase {
             routeProvider: { _ in return Route<Deeplink>.blank })
         sut.register(
             blueprint: DeeplinkBlueprints.user(id: .intPlaceholder(key: "user_id")).blueprint,
-            routeProvider: { _ in return Route<Deeplink>.blank })
+            routeProvider: { _ in return Route<Deeplink>.handleDeeplink(deeplink: .user(id: 123)) })
     }
     
     func testCanHandleURL_WhenCalledForRegisteredURL_ShouldReturnTrue() {
@@ -74,5 +74,20 @@ class URLRouterTests: XCTestCase {
     
     func testCanHandleURL_WhenCalledForInvalidURL_ShouldReturnFalse() {
         XCTAssertFalse(sut.canHandleURL(url: URL(string: "scheme://user/invalid_id")!))
+    }
+    
+    func testRoute_WhenCalledWithRegisteredURL_ShouldReturnCorrectRoute() throws {
+        XCTAssertEqual(
+            Route<Deeplink>.blank,
+            sut.route(
+                forUrl: try Deeplink.simple.blueprint.blueprint.url()!))
+        XCTAssertEqual(
+            Route<Deeplink>.handleDeeplink(deeplink: .user(id: 123)),
+            sut.route(forUrl: try Deeplink.user(id: 10).blueprint.blueprint.url()!))
+    }
+    
+    func testRoute_WhenCalledForUnregisteredURL_ShouldReturnNotFoundError() throws {
+        XCTAssertEqual(.error(.notFound), sut.route(
+            forUrl: try Deeplink.item(id: "item").blueprint.blueprint.url()!))
     }
 }

@@ -14,3 +14,5 @@ public enum Route<DeeplinkType> {
     case error(_ error: RouteError)
     case blank
 }
+
+extension Route: Equatable where DeeplinkType: Equatable {}
