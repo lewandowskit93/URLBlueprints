@@ -23,7 +23,6 @@
 		32E1D0C470A0FC973EA43254 /* URLBlueprintComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 769E0BA0F9F5C9EB698CE0F2 /* URLBlueprintComponent.swift */; };
 		39D3BEB1EE8DCC3E938C5142 /* DeeplinkBlueprintError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 556B42518BED2091C8673C2B /* DeeplinkBlueprintError.swift */; };
 		412E9B8116340C16766704DD /* URLBlueprint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07920698F8DD12374262A58D /* URLBlueprint.swift */; };
-		425A3E61C465B2A4FB8C8FA9 /* MatchOperator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 977AA43BF66FF65814A8FF73 /* MatchOperator.swift */; };
 		42889FAED5E3A606A210D945 /* Counted.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27514D15B7A707230163D113 /* Counted.swift */; };
 		447D1D6502B2AB4AF6D7C305 /* URLBlueprint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07920698F8DD12374262A58D /* URLBlueprint.swift */; };
 		45EB1C9F9CDDDA4F8A104CB7 /* DeeplinkBlueprintsTests_iOS-Bridging-Header.h in Headers */ = {isa = PBXBuildFile; fileRef = 5626193DC1C791D9D61A3369 /* DeeplinkBlueprintsTests_iOS-Bridging-Header.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -43,9 +42,7 @@
 		68163624E3B23396723DA920 /* RouteError.swift in Sources */ = {isa = PBXBuildFile; fileRef = C81991F069B244FB8E50EC7D /* RouteError.swift */; };
 		6B413E2ADC57142DF57C24E6 /* URLBlueprint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07920698F8DD12374262A58D /* URLBlueprint.swift */; };
 		6B836EC3FA583B52004B5515 /* Route.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61FBE7240E985C2E033C91D9 /* Route.swift */; };
-		6C3177EB790A75EB37E02D7B /* MatchOperator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 977AA43BF66FF65814A8FF73 /* MatchOperator.swift */; };
 		739D4B6F72DAAC365032452D /* URLRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C0CE723107CE781FE366A7F /* URLRouter.swift */; };
-		76710C879A15B9BEA4A9DB87 /* MatchOperator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 977AA43BF66FF65814A8FF73 /* MatchOperator.swift */; };
 		78F0DE7FC3646416EC7CCF5A /* Array+Match.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BB026E2114AB270017CEAB4 /* Array+Match.swift */; };
 		7B2234DF05DAE2506E87BDF7 /* URLBlueprints.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F754F48A02AB7A498463C55C /* URLBlueprints.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		7BCDCBF77522955440D0672A /* Pods_URLBlueprints_watchOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07CD234FAFFBABEE555E56F8 /* Pods_URLBlueprints_watchOS.framework */; };
@@ -87,7 +84,15 @@
 		E39A03AC55F477950D65FA85 /* DeeplinkBlueprintsTests_macOS-Bridging-Header.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D0BD45562EA3F4262966C2B /* DeeplinkBlueprintsTests_macOS-Bridging-Header.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E6403163FEA6DE3C232759BA /* Route.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61FBE7240E985C2E033C91D9 /* Route.swift */; };
 		EFB452B7E09F422B4DC6C311 /* Route.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61FBE7240E985C2E033C91D9 /* Route.swift */; };
-		FAFBC502C1C4F7221F0F8CDE /* MatchOperator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 977AA43BF66FF65814A8FF73 /* MatchOperator.swift */; };
+		F123FA97243FB5D3006664B8 /* ComponentsArrayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F123FA96243FB5D3006664B8 /* ComponentsArrayTests.swift */; };
+		F123FA98243FB5D3006664B8 /* ComponentsArrayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F123FA96243FB5D3006664B8 /* ComponentsArrayTests.swift */; };
+		F123FA99243FB5D3006664B8 /* ComponentsArrayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F123FA96243FB5D3006664B8 /* ComponentsArrayTests.swift */; };
+		F123FA9B243FBA71006664B8 /* URLBlueprintTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F123FA9A243FBA71006664B8 /* URLBlueprintTests.swift */; };
+		F123FA9C243FBA71006664B8 /* URLBlueprintTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F123FA9A243FBA71006664B8 /* URLBlueprintTests.swift */; };
+		F123FA9D243FBA71006664B8 /* URLBlueprintTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F123FA9A243FBA71006664B8 /* URLBlueprintTests.swift */; };
+		F123FA9F243FBC8E006664B8 /* URLRouterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F123FA9E243FBC8E006664B8 /* URLRouterTests.swift */; };
+		F123FAA0243FBC8E006664B8 /* URLRouterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F123FA9E243FBC8E006664B8 /* URLRouterTests.swift */; };
+		F123FAA1243FBC8E006664B8 /* URLRouterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F123FA9E243FBC8E006664B8 /* URLRouterTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -197,10 +202,9 @@
 		7BB026E2114AB270017CEAB4 /* Array+Match.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Match.swift"; sourceTree = "<group>"; };
 		83217A9067EA86F1F333D73F /* Pods-URLBlueprints_macOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-URLBlueprints_macOS.release.xcconfig"; path = "Target Support Files/Pods-URLBlueprints_macOS/Pods-URLBlueprints_macOS.release.xcconfig"; sourceTree = "<group>"; };
 		8325C6C8AE2B29770DF28A4D /* Common.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Common.xcconfig; sourceTree = "<group>"; };
-		8C0E4197E821232D3AAB906C /* Example */ = {isa = PBXFileReference; includeInIndex = 0; path = Example; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C0E4197E821232D3AAB906C /* Example */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = text; path = Example; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D0BD45562EA3F4262966C2B /* DeeplinkBlueprintsTests_macOS-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DeeplinkBlueprintsTests_macOS-Bridging-Header.h"; sourceTree = "<group>"; };
 		8D5B5595852DCE46771A445D /* Pods_URLBlueprints_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_URLBlueprints_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		977AA43BF66FF65814A8FF73 /* MatchOperator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchOperator.swift; sourceTree = "<group>"; };
 		9AF98A5E0E6CFA9343EA4A30 /* URLBlueprints.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = URLBlueprints.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9EA2F80CD2A79D14683A27A9 /* Pods-URLBlueprints_iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-URLBlueprints_iOS.debug.xcconfig"; path = "Target Support Files/Pods-URLBlueprints_iOS/Pods-URLBlueprints_iOS.debug.xcconfig"; sourceTree = "<group>"; };
 		B6C71FB41D20D050CEA6F672 /* Pods_URLBlueprintsTests_macOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_URLBlueprintsTests_macOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -212,6 +216,9 @@
 		DD92C0CAC9797A2CF3B8A28A /* ExampleDeeplinkBlueprints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleDeeplinkBlueprints.swift; sourceTree = "<group>"; };
 		EB51924995B8AA8071C1FA9D /* Pods-URLBlueprintsTests_tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-URLBlueprintsTests_tvOS.release.xcconfig"; path = "Target Support Files/Pods-URLBlueprintsTests_tvOS/Pods-URLBlueprintsTests_tvOS.release.xcconfig"; sourceTree = "<group>"; };
 		F0B5E2D4541B6A2885BA5C8A /* URLBlueprints.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = URLBlueprints.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F123FA96243FB5D3006664B8 /* ComponentsArrayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComponentsArrayTests.swift; sourceTree = "<group>"; };
+		F123FA9A243FBA71006664B8 /* URLBlueprintTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLBlueprintTests.swift; sourceTree = "<group>"; };
+		F123FA9E243FBC8E006664B8 /* URLRouterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLRouterTests.swift; sourceTree = "<group>"; };
 		F754F48A02AB7A498463C55C /* URLBlueprints.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = URLBlueprints.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9A38849C2A7C8981F6807C6 /* URLBlueprintsTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = URLBlueprintsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -321,7 +328,6 @@
 			isa = PBXGroup;
 			children = (
 				38AA07D2C367F09E62CA7385 /* ExtractOperator.swift */,
-				977AA43BF66FF65814A8FF73 /* MatchOperator.swift */,
 			);
 			path = Operators;
 			sourceTree = "<group>";
@@ -394,6 +400,9 @@
 			isa = PBXGroup;
 			children = (
 				485F770E959A4662DAFF85B6 /* DeeplinkBlueprintComponentTests.swift */,
+				F123FA96243FB5D3006664B8 /* ComponentsArrayTests.swift */,
+				F123FA9A243FBA71006664B8 /* URLBlueprintTests.swift */,
+				F123FA9E243FBC8E006664B8 /* URLRouterTests.swift */,
 			);
 			path = URLBlueprintsTests;
 			sourceTree = "<group>";
@@ -451,7 +460,6 @@
 				6A302B7C5BD71299C0F6E977 /* Pods-URLBlueprints_watchOS.debug.xcconfig */,
 				453D66C43CB0AB0182A942BC /* Pods-URLBlueprints_watchOS.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -916,7 +924,6 @@
 				9034DCECE3FCCF6C6604C759 /* Counted.swift in Sources */,
 				034C899988528D0443C47EE9 /* DeeplinkBlueprintError.swift in Sources */,
 				4A5F114CF9546E9DF6C578CE /* ExtractOperator.swift in Sources */,
-				76710C879A15B9BEA4A9DB87 /* MatchOperator.swift in Sources */,
 				56958B44833A27F41F104D53 /* PURLRouter.swift in Sources */,
 				E6403163FEA6DE3C232759BA /* Route.swift in Sources */,
 				189E67362203D882256579EF /* RouteError.swift in Sources */,
@@ -935,7 +942,6 @@
 				DA6E2EBE6CE0489F3A1406BF /* Counted.swift in Sources */,
 				095674DFF55F77C7DA5371B9 /* DeeplinkBlueprintError.swift in Sources */,
 				611065EE11F1C74BF87AE3A9 /* ExtractOperator.swift in Sources */,
-				6C3177EB790A75EB37E02D7B /* MatchOperator.swift in Sources */,
 				53BFD3AA9C19DE2425A2C31D /* PURLRouter.swift in Sources */,
 				52E283CD730EBE5A5D76428D /* Route.swift in Sources */,
 				4FA12565B539FE4C0E296A27 /* RouteError.swift in Sources */,
@@ -950,6 +956,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				A7143451FA1832CBB1092620 /* DeeplinkBlueprintComponentTests.swift in Sources */,
+				F123FA98243FB5D3006664B8 /* ComponentsArrayTests.swift in Sources */,
+				F123FAA0243FBC8E006664B8 /* URLRouterTests.swift in Sources */,
+				F123FA9C243FBA71006664B8 /* URLBlueprintTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -962,7 +971,6 @@
 				BB30F97EC28FEC330A348FDA /* Counted.swift in Sources */,
 				39D3BEB1EE8DCC3E938C5142 /* DeeplinkBlueprintError.swift in Sources */,
 				DA2E59530C946AD64EC9BE55 /* ExtractOperator.swift in Sources */,
-				425A3E61C465B2A4FB8C8FA9 /* MatchOperator.swift in Sources */,
 				0804246CD42DED03CD3A3556 /* PURLRouter.swift in Sources */,
 				6B836EC3FA583B52004B5515 /* Route.swift in Sources */,
 				68163624E3B23396723DA920 /* RouteError.swift in Sources */,
@@ -977,6 +985,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				170E3B87FAF5D5A806857306 /* DeeplinkBlueprintComponentTests.swift in Sources */,
+				F123FA99243FB5D3006664B8 /* ComponentsArrayTests.swift in Sources */,
+				F123FAA1243FBC8E006664B8 /* URLRouterTests.swift in Sources */,
+				F123FA9D243FBA71006664B8 /* URLBlueprintTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -989,7 +1000,6 @@
 				42889FAED5E3A606A210D945 /* Counted.swift in Sources */,
 				94FEA560F72C1760E9D64585 /* DeeplinkBlueprintError.swift in Sources */,
 				C713131A5ABBDCAF24375553 /* ExtractOperator.swift in Sources */,
-				FAFBC502C1C4F7221F0F8CDE /* MatchOperator.swift in Sources */,
 				C83CCF2F712F6D927FE6A652 /* PURLRouter.swift in Sources */,
 				EFB452B7E09F422B4DC6C311 /* Route.swift in Sources */,
 				65EE9F69B7ADB84925E9B29E /* RouteError.swift in Sources */,
@@ -1014,6 +1024,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				92AA3D964C68A8FB3EBF0125 /* DeeplinkBlueprintComponentTests.swift in Sources */,
+				F123FA97243FB5D3006664B8 /* ComponentsArrayTests.swift in Sources */,
+				F123FA9F243FBC8E006664B8 /* URLRouterTests.swift in Sources */,
+				F123FA9B243FBA71006664B8 /* URLBlueprintTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
