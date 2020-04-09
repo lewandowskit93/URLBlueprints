@@ -6,7 +6,7 @@
 //  Copyright © 2020 LionSoftware.org. All rights reserved.
 //
 
-public enum DeeplinkBlueprintComponent: Equatable {
+public enum DeeplinkBlueprintComponent: Hashable {
     case constant(String)
     case wildcard
     case intPlaceholder(key: String)

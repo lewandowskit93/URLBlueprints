@@ -8,7 +8,7 @@
 
 import Foundation
 
-public struct DeeplinkBlueprint: Equatable {
+public struct DeeplinkBlueprint: Hashable {
     public let scheme: String
     public let components: [DeeplinkBlueprintComponent]
     
