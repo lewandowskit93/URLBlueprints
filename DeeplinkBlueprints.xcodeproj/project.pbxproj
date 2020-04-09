@@ -7,40 +7,61 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		020609CE866A20154AAEA8C7 /* DeeplinkBlueprintsTests_tvOS-Bridging-Header.h in Headers */ = {isa = PBXBuildFile; fileRef = 4BC39FB14A397BF7F079E425 /* DeeplinkBlueprintsTests_tvOS-Bridging-Header.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		03EE4CDFE6108370238D677A /* DeeplinkBlueprintsTests_iOS-Bridging-Header.h in Headers */ = {isa = PBXBuildFile; fileRef = C801292C35328098CFAF7E89 /* DeeplinkBlueprintsTests_iOS-Bridging-Header.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		057535186BBA50692D5B3A90 /* DeeplinkBlueprintsTests_tvOS-Bridging-Header.h in Headers */ = {isa = PBXBuildFile; fileRef = 4BC39FB14A397BF7F079E425 /* DeeplinkBlueprintsTests_tvOS-Bridging-Header.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1131988B04F41D80FE02BECA /* DeeplinkBlueprintError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA1A6EC9F5DBC19D64BCB00 /* DeeplinkBlueprintError.swift */; };
+		207F9919B57ABEE7964E1BD0 /* DeeplinkBlueprintError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA1A6EC9F5DBC19D64BCB00 /* DeeplinkBlueprintError.swift */; };
+		2229A1867037C239350D77AF /* DeeplinkBlueprintsTests_tvOS-Bridging-Header.h in Headers */ = {isa = PBXBuildFile; fileRef = 4BC39FB14A397BF7F079E425 /* DeeplinkBlueprintsTests_tvOS-Bridging-Header.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		226202E0A9CF29C4A0A0201C /* Pods_DeeplinkBlueprintsTests_tvOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F08D7AD54B738A71D6DDED9 /* Pods_DeeplinkBlueprintsTests_tvOS.framework */; };
+		24CD5343468834AB202E5A7D /* Route.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89840E1BEF7517D44CF1C410 /* Route.swift */; };
+		25EAA4801F97D41082AD866A /* DeeplinkBlueprintsTests_macOS-Bridging-Header.h in Headers */ = {isa = PBXBuildFile; fileRef = 979D4703630348C0618959BA /* DeeplinkBlueprintsTests_macOS-Bridging-Header.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2A71C0068944207317ECE19C /* RouteError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87BD840822398B129D6DEB4A /* RouteError.swift */; };
+		2F60B2057C4721BF338AABF6 /* DeeplinkBlueprintComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6A22E594AF265E1B1196E6 /* DeeplinkBlueprintComponent.swift */; };
+		390F7327976D064745C34652 /* DeeplinkBlueprintComponentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FEE0CA989A8E295552900DC /* DeeplinkBlueprintComponentTests.swift */; };
 		393A7F86D933EDCD173646B1 /* DeeplinkBlueprints.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 51ECB3D483D8A367F74FB39C /* DeeplinkBlueprints.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		3AFB45094D9A047D8B9546A5 /* Pods_DeeplinkBlueprints_macOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB1AFB1E54FDCAF1A0D77EBA /* Pods_DeeplinkBlueprints_macOS.framework */; };
 		3B56823D96F27BB04E56CC5D /* DeeplinkBlueprints.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 198C0DCF38A354973DF8B942 /* DeeplinkBlueprints.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		3F60FECD558C958CBD4F32B7 /* Pods_DeeplinkBlueprintsTests_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD73507FE34D998D4023F570 /* Pods_DeeplinkBlueprintsTests_iOS.framework */; };
-		4502AF2906808ACBC953A7B4 /* Pods_DeeplinkBlueprints_tvOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25759C187F46BCF45F7BC411 /* Pods_DeeplinkBlueprints_tvOS.framework */; };
-		580907CDD56947E9058852A1 /* Pods_DeeplinkBlueprintsTests_macOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 186BF9F42D1BCB08F186804A /* Pods_DeeplinkBlueprintsTests_macOS.framework */; };
+		42CA73E9E50A1624D0B57D33 /* DeeplinkBlueprintComponentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FEE0CA989A8E295552900DC /* DeeplinkBlueprintComponentTests.swift */; };
+		472FFA817E73A012AC0D415C /* Route.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89840E1BEF7517D44CF1C410 /* Route.swift */; };
+		4AE7857573F32E62FCAE31C9 /* DeeplinkBlueprintError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA1A6EC9F5DBC19D64BCB00 /* DeeplinkBlueprintError.swift */; };
+		4AF5F0710DF3B4B5D0E177D3 /* ExtractOperator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 929912A0DB46D5145E4181B2 /* ExtractOperator.swift */; };
+		4EFA9F7A42A943749ACEA412 /* ExtractOperator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 929912A0DB46D5145E4181B2 /* ExtractOperator.swift */; };
+		552A43A3748C3A035202FE7A /* RouteError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87BD840822398B129D6DEB4A /* RouteError.swift */; };
+		5A2D99B4AFF4568FA8169B03 /* DeeplinkBlueprintsTests_iOS-Bridging-Header.h in Headers */ = {isa = PBXBuildFile; fileRef = C801292C35328098CFAF7E89 /* DeeplinkBlueprintsTests_iOS-Bridging-Header.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		61BB0657E18294E28BFD7D83 /* DeeplinkBlueprints.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 51ECB3D483D8A367F74FB39C /* DeeplinkBlueprints.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		6A01A9EC60D8AA6B870083FD /* DeeplinkBlueprintsTests_macOS-Bridging-Header.h in Headers */ = {isa = PBXBuildFile; fileRef = 979D4703630348C0618959BA /* DeeplinkBlueprintsTests_macOS-Bridging-Header.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6E3B7CD350C5EC7EE64294F6 /* Pods_DeeplinkBlueprintsTests_macOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED034A732F8D5DC490972B58 /* Pods_DeeplinkBlueprintsTests_macOS.framework */; };
+		71B12F192AD9362800882A35 /* Pods_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFF2AEBC18EEF34AD93A94CA /* Pods_Example.framework */; };
 		745FD1377E97177CD606009D /* DeeplinkBlueprints.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 51ECB3D483D8A367F74FB39C /* DeeplinkBlueprints.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		922A7B02C3A41436FF0415E0 /* Pods_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A679F794FE9D4EFB5D2FFE34 /* Pods_Example.framework */; };
-		9FF3D022C1C9B9F66D110E51 /* Pods_DeeplinkBlueprints_watchOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F628D4D95EAE76C7AD0198FB /* Pods_DeeplinkBlueprints_watchOS.framework */; };
+		780EF0E624DF88DFD65A9F60 /* Pods_DeeplinkBlueprints_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 974A5974C16D37E99D6D23BF /* Pods_DeeplinkBlueprints_iOS.framework */; };
+		8457431767B2D5567A3AE29E /* Route.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89840E1BEF7517D44CF1C410 /* Route.swift */; };
+		85A6DDAB77FC877255C346FF /* DeeplinkBlueprintsTests_tvOS-Bridging-Header.h in Headers */ = {isa = PBXBuildFile; fileRef = 4BC39FB14A397BF7F079E425 /* DeeplinkBlueprintsTests_tvOS-Bridging-Header.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		99D9316257F5B9B8F65EEC0D /* MatchOperator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 993E60CB70AD8186D248F6D1 /* MatchOperator.swift */; };
+		A06B260920ECC48F60598851 /* DeeplinkBlueprintsTests_macOS-Bridging-Header.h in Headers */ = {isa = PBXBuildFile; fileRef = 979D4703630348C0618959BA /* DeeplinkBlueprintsTests_macOS-Bridging-Header.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A56C9BC82C0E3D2B73845E06 /* DeeplinkBlueprints.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51ECB3D483D8A367F74FB39C /* DeeplinkBlueprints.framework */; };
+		A6738B0FC43FD0244A61A852 /* DeeplinkBlueprintsTests_macOS-Bridging-Header.h in Headers */ = {isa = PBXBuildFile; fileRef = 979D4703630348C0618959BA /* DeeplinkBlueprintsTests_macOS-Bridging-Header.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AF2E2FB28BD8DD1A227DBBCF /* DeeplinkBlueprints.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 198C0DCF38A354973DF8B942 /* DeeplinkBlueprints.framework */; };
-		B515CF6C57388C5A89F2DD25 /* Pods_DeeplinkBlueprintsTests_tvOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD8ED4B2D3F9C72739E78E5E /* Pods_DeeplinkBlueprintsTests_tvOS.framework */; };
+		B0927DDA8C6020DF2E68ED48 /* MatchOperator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 993E60CB70AD8186D248F6D1 /* MatchOperator.swift */; };
+		B5D2A1674807F90304DF6626 /* ExtractOperator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 929912A0DB46D5145E4181B2 /* ExtractOperator.swift */; };
 		B6ED723E5A6A1634A328F7C9 /* DeeplinkBlueprints.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51ECB3D483D8A367F74FB39C /* DeeplinkBlueprints.framework */; };
+		B81F5580FDB38CADF1D2032B /* MatchOperator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 993E60CB70AD8186D248F6D1 /* MatchOperator.swift */; };
+		BED5A027B985C67AB505A1EC /* DeeplinkBlueprintsTests_iOS-Bridging-Header.h in Headers */ = {isa = PBXBuildFile; fileRef = C801292C35328098CFAF7E89 /* DeeplinkBlueprintsTests_iOS-Bridging-Header.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C1EBD9E818A55165DC76F62E /* RouteError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87BD840822398B129D6DEB4A /* RouteError.swift */; };
+		CAED9E1C4DF6105462299B05 /* Pods_DeeplinkBlueprints_tvOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E7967385B06CC5A541BCCB4 /* Pods_DeeplinkBlueprints_tvOS.framework */; };
+		CE0307953BB95199B499F1C8 /* DeeplinkBlueprintComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6A22E594AF265E1B1196E6 /* DeeplinkBlueprintComponent.swift */; };
+		D2F297982B12497C5B28189C /* ExtractOperator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 929912A0DB46D5145E4181B2 /* ExtractOperator.swift */; };
+		DBB877C3C3FC70BBBF138B93 /* Route.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89840E1BEF7517D44CF1C410 /* Route.swift */; };
 		DBEFBBDDE193D4F014FDD29E /* DeeplinkBlueprints.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51ECB3D483D8A367F74FB39C /* DeeplinkBlueprints.framework */; };
-		E927251D161D9CA3E1C9CA29 /* Pods_DeeplinkBlueprints_macOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5B8BF3142E28FF396C03329 /* Pods_DeeplinkBlueprints_macOS.framework */; };
-		EE8E5FB7B3C999B07F3BE992 /* Pods_DeeplinkBlueprints_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 113A5406536B50F81DC43949 /* Pods_DeeplinkBlueprints_iOS.framework */; };
-		F123FA25243E9CD9006664B8 /* RouteError.swift in Sources */ = {isa = PBXBuildFile; fileRef = F123FA24243E9CD9006664B8 /* RouteError.swift */; };
-		F123FA26243E9CD9006664B8 /* RouteError.swift in Sources */ = {isa = PBXBuildFile; fileRef = F123FA24243E9CD9006664B8 /* RouteError.swift */; };
-		F123FA27243E9CD9006664B8 /* RouteError.swift in Sources */ = {isa = PBXBuildFile; fileRef = F123FA24243E9CD9006664B8 /* RouteError.swift */; };
-		F123FA29243E9D0F006664B8 /* DeeplinkBlueprintError.swift in Sources */ = {isa = PBXBuildFile; fileRef = F123FA28243E9D0F006664B8 /* DeeplinkBlueprintError.swift */; };
-		F123FA2A243E9D0F006664B8 /* DeeplinkBlueprintError.swift in Sources */ = {isa = PBXBuildFile; fileRef = F123FA28243E9D0F006664B8 /* DeeplinkBlueprintError.swift */; };
-		F123FA2B243E9D0F006664B8 /* DeeplinkBlueprintError.swift in Sources */ = {isa = PBXBuildFile; fileRef = F123FA28243E9D0F006664B8 /* DeeplinkBlueprintError.swift */; };
-		F123FA2D243E9D67006664B8 /* DeeplinkBlueprintComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = F123FA2C243E9D67006664B8 /* DeeplinkBlueprintComponent.swift */; };
-		F123FA2E243E9D67006664B8 /* DeeplinkBlueprintComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = F123FA2C243E9D67006664B8 /* DeeplinkBlueprintComponent.swift */; };
-		F123FA2F243E9D67006664B8 /* DeeplinkBlueprintComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = F123FA2C243E9D67006664B8 /* DeeplinkBlueprintComponent.swift */; };
-		F123FA31243E9D88006664B8 /* Route.swift in Sources */ = {isa = PBXBuildFile; fileRef = F123FA30243E9D88006664B8 /* Route.swift */; };
-		F123FA32243E9D88006664B8 /* Route.swift in Sources */ = {isa = PBXBuildFile; fileRef = F123FA30243E9D88006664B8 /* Route.swift */; };
-		F123FA33243E9D88006664B8 /* Route.swift in Sources */ = {isa = PBXBuildFile; fileRef = F123FA30243E9D88006664B8 /* Route.swift */; };
-		F123FA3B243E9EDA006664B8 /* ExtractOperator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F123FA3A243E9EDA006664B8 /* ExtractOperator.swift */; };
-		F123FA3C243E9EDA006664B8 /* ExtractOperator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F123FA3A243E9EDA006664B8 /* ExtractOperator.swift */; };
-		F123FA3D243E9EDA006664B8 /* ExtractOperator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F123FA3A243E9EDA006664B8 /* ExtractOperator.swift */; };
-		F123FA3F243E9F07006664B8 /* MatchOperator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F123FA3E243E9F07006664B8 /* MatchOperator.swift */; };
-		F123FA40243E9F07006664B8 /* MatchOperator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F123FA3E243E9F07006664B8 /* MatchOperator.swift */; };
-		F123FA41243E9F07006664B8 /* MatchOperator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F123FA3E243E9F07006664B8 /* MatchOperator.swift */; };
+		E2B4E88601FB6855CA59F28C /* DeeplinkBlueprintsTests_iOS-Bridging-Header.h in Headers */ = {isa = PBXBuildFile; fileRef = C801292C35328098CFAF7E89 /* DeeplinkBlueprintsTests_iOS-Bridging-Header.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E5634DBC5F02E10BB07555AF /* MatchOperator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 993E60CB70AD8186D248F6D1 /* MatchOperator.swift */; };
+		EAFE299641949133B694FCA4 /* Pods_DeeplinkBlueprints_watchOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 632B294218CA619C182152B3 /* Pods_DeeplinkBlueprints_watchOS.framework */; };
+		EC76C7AAA1CB22B6CF5A8971 /* Pods_DeeplinkBlueprintsTests_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A04CAAEF9B712FF07ED3C2A7 /* Pods_DeeplinkBlueprintsTests_iOS.framework */; };
+		EFDAFEC561F45BD8892D2486 /* DeeplinkBlueprintError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA1A6EC9F5DBC19D64BCB00 /* DeeplinkBlueprintError.swift */; };
+		F0B593D22E3F3986EAEB2676 /* RouteError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87BD840822398B129D6DEB4A /* RouteError.swift */; };
+		F422D316029E0AA184C665CB /* DeeplinkBlueprintComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6A22E594AF265E1B1196E6 /* DeeplinkBlueprintComponent.swift */; };
+		FB1534000766B9056AE361BA /* DeeplinkBlueprintComponentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FEE0CA989A8E295552900DC /* DeeplinkBlueprintComponentTests.swift */; };
+		FB9151D8E510B8FF4E42E95A /* DeeplinkBlueprintComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6A22E594AF265E1B1196E6 /* DeeplinkBlueprintComponent.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -122,77 +143,78 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		113A5406536B50F81DC43949 /* Pods_DeeplinkBlueprints_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DeeplinkBlueprints_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		186BF9F42D1BCB08F186804A /* Pods_DeeplinkBlueprintsTests_macOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DeeplinkBlueprintsTests_macOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		17A42DF5A6C4A4F778C22CE9 /* Pods-DeeplinkBlueprints_iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DeeplinkBlueprints_iOS.debug.xcconfig"; path = "Target Support Files/Pods-DeeplinkBlueprints_iOS/Pods-DeeplinkBlueprints_iOS.debug.xcconfig"; sourceTree = "<group>"; };
 		198C0DCF38A354973DF8B942 /* DeeplinkBlueprints.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DeeplinkBlueprints.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		21E8BC751D2E7E3DE48EA862 /* DeeplinkBlueprints.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DeeplinkBlueprints.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		25759C187F46BCF45F7BC411 /* Pods_DeeplinkBlueprints_tvOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DeeplinkBlueprints_tvOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		299BA0E829C4F3007EDC0063 /* Pods-DeeplinkBlueprints_tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DeeplinkBlueprints_tvOS.debug.xcconfig"; path = "Target Support Files/Pods-DeeplinkBlueprints_tvOS/Pods-DeeplinkBlueprints_tvOS.debug.xcconfig"; sourceTree = "<group>"; };
 		2A18CB53BD4FF7A99E9718B1 /* DeeplinkBlueprints.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DeeplinkBlueprints.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3A93C997DE8A09538B045E5E /* Pods-DeeplinkBlueprints_macOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DeeplinkBlueprints_macOS.release.xcconfig"; path = "Target Support Files/Pods-DeeplinkBlueprints_macOS/Pods-DeeplinkBlueprints_macOS.release.xcconfig"; sourceTree = "<group>"; };
-		4725027AF86392EAC2542ABD /* DeeplinkBlueprintsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DeeplinkBlueprintsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FA1A6EC9F5DBC19D64BCB00 /* DeeplinkBlueprintError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeeplinkBlueprintError.swift; sourceTree = "<group>"; };
+		3FEE0CA989A8E295552900DC /* DeeplinkBlueprintComponentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeeplinkBlueprintComponentTests.swift; sourceTree = "<group>"; };
+		3FFF0B87C3BD8CD545BE2FED /* Pods-DeeplinkBlueprintsTests_tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DeeplinkBlueprintsTests_tvOS.debug.xcconfig"; path = "Target Support Files/Pods-DeeplinkBlueprintsTests_tvOS/Pods-DeeplinkBlueprintsTests_tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		4725027AF86392EAC2542ABD /* DeeplinkBlueprintsTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = DeeplinkBlueprintsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BC39FB14A397BF7F079E425 /* DeeplinkBlueprintsTests_tvOS-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DeeplinkBlueprintsTests_tvOS-Bridging-Header.h"; sourceTree = "<group>"; };
 		4E4343F88F92335C4B42396A /* Debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Debug.xcconfig; sourceTree = "<group>"; };
-		4F7C7FEF67F310024FE254F7 /* Pods-DeeplinkBlueprints_tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DeeplinkBlueprints_tvOS.release.xcconfig"; path = "Target Support Files/Pods-DeeplinkBlueprints_tvOS/Pods-DeeplinkBlueprints_tvOS.release.xcconfig"; sourceTree = "<group>"; };
 		51ECB3D483D8A367F74FB39C /* DeeplinkBlueprints.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DeeplinkBlueprints.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		572A9228ACA07B0C50C96AFC /* Pods-DeeplinkBlueprints_tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DeeplinkBlueprints_tvOS.release.xcconfig"; path = "Target Support Files/Pods-DeeplinkBlueprints_tvOS/Pods-DeeplinkBlueprints_tvOS.release.xcconfig"; sourceTree = "<group>"; };
 		597BE14D3C12B2A620772F8C /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
-		5BBDE599A314446DEA8540F4 /* Pods-DeeplinkBlueprintsTests_tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DeeplinkBlueprintsTests_tvOS.debug.xcconfig"; path = "Target Support Files/Pods-DeeplinkBlueprintsTests_tvOS/Pods-DeeplinkBlueprintsTests_tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		632B294218CA619C182152B3 /* Pods_DeeplinkBlueprints_watchOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DeeplinkBlueprints_watchOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		63AB5319D141C7B60C123DBD /* Pods-Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Example.release.xcconfig"; path = "Target Support Files/Pods-Example/Pods-Example.release.xcconfig"; sourceTree = "<group>"; };
+		6493601F4A39D345058B3667 /* Pods-DeeplinkBlueprintsTests_tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DeeplinkBlueprintsTests_tvOS.release.xcconfig"; path = "Target Support Files/Pods-DeeplinkBlueprintsTests_tvOS/Pods-DeeplinkBlueprintsTests_tvOS.release.xcconfig"; sourceTree = "<group>"; };
 		6AD14779627E85CAC9D7056F /* Example.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		6F87D02D31245A07848DF0E5 /* Pods-DeeplinkBlueprintsTests_macOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DeeplinkBlueprintsTests_macOS.release.xcconfig"; path = "Target Support Files/Pods-DeeplinkBlueprintsTests_macOS/Pods-DeeplinkBlueprintsTests_macOS.release.xcconfig"; sourceTree = "<group>"; };
-		715A51165BD52CACAD56FC49 /* Pods-DeeplinkBlueprintsTests_iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DeeplinkBlueprintsTests_iOS.debug.xcconfig"; path = "Target Support Files/Pods-DeeplinkBlueprintsTests_iOS/Pods-DeeplinkBlueprintsTests_iOS.debug.xcconfig"; sourceTree = "<group>"; };
-		762219E58849C2B3FDE2FB21 /* Pods-Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Example.debug.xcconfig"; path = "Target Support Files/Pods-Example/Pods-Example.debug.xcconfig"; sourceTree = "<group>"; };
+		7728140C4533D7871A351C62 /* Pods-DeeplinkBlueprints_macOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DeeplinkBlueprints_macOS.debug.xcconfig"; path = "Target Support Files/Pods-DeeplinkBlueprints_macOS/Pods-DeeplinkBlueprints_macOS.debug.xcconfig"; sourceTree = "<group>"; };
+		7F08D7AD54B738A71D6DDED9 /* Pods_DeeplinkBlueprintsTests_tvOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DeeplinkBlueprintsTests_tvOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		87BD840822398B129D6DEB4A /* RouteError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteError.swift; sourceTree = "<group>"; };
+		89840E1BEF7517D44CF1C410 /* Route.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Route.swift; sourceTree = "<group>"; };
 		89CD787FC9991EC73501CE69 /* DeeplinkBlueprintsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DeeplinkBlueprintsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		89E79A505483EA0E454890CF /* Common.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Common.xcconfig; sourceTree = "<group>"; };
-		8ABC494ECC79D36B2CEDC9CF /* DeeplinkBlueprintsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DeeplinkBlueprintsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		8C87079124114B1490F7DCFB /* Pods-DeeplinkBlueprints_macOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DeeplinkBlueprints_macOS.debug.xcconfig"; path = "Target Support Files/Pods-DeeplinkBlueprints_macOS/Pods-DeeplinkBlueprints_macOS.debug.xcconfig"; sourceTree = "<group>"; };
-		96603EF76B6F3ADA384F4D18 /* Pods-DeeplinkBlueprints_watchOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DeeplinkBlueprints_watchOS.release.xcconfig"; path = "Target Support Files/Pods-DeeplinkBlueprints_watchOS/Pods-DeeplinkBlueprints_watchOS.release.xcconfig"; sourceTree = "<group>"; };
-		992565F56B65FD526CE671FF /* Pods-DeeplinkBlueprints_iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DeeplinkBlueprints_iOS.release.xcconfig"; path = "Target Support Files/Pods-DeeplinkBlueprints_iOS/Pods-DeeplinkBlueprints_iOS.release.xcconfig"; sourceTree = "<group>"; };
-		A679F794FE9D4EFB5D2FFE34 /* Pods_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A77AFA1F4B07D36004EAF9AB /* Pods-Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Example.release.xcconfig"; path = "Target Support Files/Pods-Example/Pods-Example.release.xcconfig"; sourceTree = "<group>"; };
-		AD73507FE34D998D4023F570 /* Pods_DeeplinkBlueprintsTests_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DeeplinkBlueprintsTests_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B1B0DD83755644F9F3C3758C /* Pods-DeeplinkBlueprintsTests_macOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DeeplinkBlueprintsTests_macOS.debug.xcconfig"; path = "Target Support Files/Pods-DeeplinkBlueprintsTests_macOS/Pods-DeeplinkBlueprintsTests_macOS.debug.xcconfig"; sourceTree = "<group>"; };
+		8ABC494ECC79D36B2CEDC9CF /* DeeplinkBlueprintsTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = DeeplinkBlueprintsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E7967385B06CC5A541BCCB4 /* Pods_DeeplinkBlueprints_tvOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DeeplinkBlueprints_tvOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		929912A0DB46D5145E4181B2 /* ExtractOperator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtractOperator.swift; sourceTree = "<group>"; };
+		974A5974C16D37E99D6D23BF /* Pods_DeeplinkBlueprints_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DeeplinkBlueprints_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		979D4703630348C0618959BA /* DeeplinkBlueprintsTests_macOS-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DeeplinkBlueprintsTests_macOS-Bridging-Header.h"; sourceTree = "<group>"; };
+		993E60CB70AD8186D248F6D1 /* MatchOperator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchOperator.swift; sourceTree = "<group>"; };
+		9A6E65BD0CC587198D26195A /* Pods-Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Example.debug.xcconfig"; path = "Target Support Files/Pods-Example/Pods-Example.debug.xcconfig"; sourceTree = "<group>"; };
+		A04CAAEF9B712FF07ED3C2A7 /* Pods_DeeplinkBlueprintsTests_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DeeplinkBlueprintsTests_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2F83D5D9EC72509F4763FA1 /* Pods-DeeplinkBlueprints_watchOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DeeplinkBlueprints_watchOS.debug.xcconfig"; path = "Target Support Files/Pods-DeeplinkBlueprints_watchOS/Pods-DeeplinkBlueprints_watchOS.debug.xcconfig"; sourceTree = "<group>"; };
+		A82C9F1426B369B16B90B1C0 /* Pods-DeeplinkBlueprints_macOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DeeplinkBlueprints_macOS.release.xcconfig"; path = "Target Support Files/Pods-DeeplinkBlueprints_macOS/Pods-DeeplinkBlueprints_macOS.release.xcconfig"; sourceTree = "<group>"; };
+		AB5FEFD8D1E296282E3A2118 /* Pods-DeeplinkBlueprints_watchOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DeeplinkBlueprints_watchOS.release.xcconfig"; path = "Target Support Files/Pods-DeeplinkBlueprints_watchOS/Pods-DeeplinkBlueprints_watchOS.release.xcconfig"; sourceTree = "<group>"; };
 		B4F806C2BE139143E968AC5E /* Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Release.xcconfig; sourceTree = "<group>"; };
-		BD8ED4B2D3F9C72739E78E5E /* Pods_DeeplinkBlueprintsTests_tvOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DeeplinkBlueprintsTests_tvOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C5B8BF3142E28FF396C03329 /* Pods_DeeplinkBlueprints_macOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DeeplinkBlueprints_macOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C664774E83F71D9DDD61B330 /* Pods-DeeplinkBlueprints_iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DeeplinkBlueprints_iOS.debug.xcconfig"; path = "Target Support Files/Pods-DeeplinkBlueprints_iOS/Pods-DeeplinkBlueprints_iOS.debug.xcconfig"; sourceTree = "<group>"; };
-		CB9F4062AB0AF0A41B980032 /* Pods-DeeplinkBlueprintsTests_tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DeeplinkBlueprintsTests_tvOS.release.xcconfig"; path = "Target Support Files/Pods-DeeplinkBlueprintsTests_tvOS/Pods-DeeplinkBlueprintsTests_tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		B6061C77DE9550735AFDF0EB /* Pods-DeeplinkBlueprintsTests_macOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DeeplinkBlueprintsTests_macOS.release.xcconfig"; path = "Target Support Files/Pods-DeeplinkBlueprintsTests_macOS/Pods-DeeplinkBlueprintsTests_macOS.release.xcconfig"; sourceTree = "<group>"; };
+		BFF2AEBC18EEF34AD93A94CA /* Pods_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C801292C35328098CFAF7E89 /* DeeplinkBlueprintsTests_iOS-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DeeplinkBlueprintsTests_iOS-Bridging-Header.h"; sourceTree = "<group>"; };
+		C87096A47918E1C55A3E5112 /* Pods-DeeplinkBlueprints_tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DeeplinkBlueprints_tvOS.debug.xcconfig"; path = "Target Support Files/Pods-DeeplinkBlueprints_tvOS/Pods-DeeplinkBlueprints_tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		CDBEA8D4093759BD12A480E0 /* Pods-DeeplinkBlueprintsTests_iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DeeplinkBlueprintsTests_iOS.release.xcconfig"; path = "Target Support Files/Pods-DeeplinkBlueprintsTests_iOS/Pods-DeeplinkBlueprintsTests_iOS.release.xcconfig"; sourceTree = "<group>"; };
+		D48C1B7EE5709BE518735F1E /* Pods-DeeplinkBlueprints_iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DeeplinkBlueprints_iOS.release.xcconfig"; path = "Target Support Files/Pods-DeeplinkBlueprints_iOS/Pods-DeeplinkBlueprints_iOS.release.xcconfig"; sourceTree = "<group>"; };
+		DB6A22E594AF265E1B1196E6 /* DeeplinkBlueprintComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeeplinkBlueprintComponent.swift; sourceTree = "<group>"; };
 		E56742A7389D181F6B351B62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
-		F123FA21243E9CD9006664B8 /* DeeplinkBlueprintsTests_iOS-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DeeplinkBlueprintsTests_iOS-Bridging-Header.h"; sourceTree = "<group>"; };
-		F123FA22243E9CD9006664B8 /* DeeplinkBlueprintsTests_macOS-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DeeplinkBlueprintsTests_macOS-Bridging-Header.h"; sourceTree = "<group>"; };
-		F123FA23243E9CD9006664B8 /* DeeplinkBlueprintsTests_tvOS-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DeeplinkBlueprintsTests_tvOS-Bridging-Header.h"; sourceTree = "<group>"; };
-		F123FA24243E9CD9006664B8 /* RouteError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteError.swift; sourceTree = "<group>"; };
-		F123FA28243E9D0F006664B8 /* DeeplinkBlueprintError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeeplinkBlueprintError.swift; sourceTree = "<group>"; };
-		F123FA2C243E9D67006664B8 /* DeeplinkBlueprintComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeeplinkBlueprintComponent.swift; sourceTree = "<group>"; };
-		F123FA30243E9D88006664B8 /* Route.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Route.swift; sourceTree = "<group>"; };
-		F123FA3A243E9EDA006664B8 /* ExtractOperator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtractOperator.swift; sourceTree = "<group>"; };
-		F123FA3E243E9F07006664B8 /* MatchOperator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchOperator.swift; sourceTree = "<group>"; };
+		EB1AFB1E54FDCAF1A0D77EBA /* Pods_DeeplinkBlueprints_macOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DeeplinkBlueprints_macOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED034A732F8D5DC490972B58 /* Pods_DeeplinkBlueprintsTests_macOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DeeplinkBlueprintsTests_macOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5E9566C398EDC1F34333E50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
-		F628D4D95EAE76C7AD0198FB /* Pods_DeeplinkBlueprints_watchOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DeeplinkBlueprints_watchOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F7B85E0D7FC710FB490117D0 /* Pods-DeeplinkBlueprintsTests_iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DeeplinkBlueprintsTests_iOS.release.xcconfig"; path = "Target Support Files/Pods-DeeplinkBlueprintsTests_iOS/Pods-DeeplinkBlueprintsTests_iOS.release.xcconfig"; sourceTree = "<group>"; };
-		FE175712172C3B9D9B697C06 /* Pods-DeeplinkBlueprints_watchOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DeeplinkBlueprints_watchOS.debug.xcconfig"; path = "Target Support Files/Pods-DeeplinkBlueprints_watchOS/Pods-DeeplinkBlueprints_watchOS.debug.xcconfig"; sourceTree = "<group>"; };
+		F6647D2E10BBF7EA32E425AF /* Pods-DeeplinkBlueprintsTests_iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DeeplinkBlueprintsTests_iOS.debug.xcconfig"; path = "Target Support Files/Pods-DeeplinkBlueprintsTests_iOS/Pods-DeeplinkBlueprintsTests_iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		FCE5A47BC02E01C2A96E0CB0 /* Pods-DeeplinkBlueprintsTests_macOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DeeplinkBlueprintsTests_macOS.debug.xcconfig"; path = "Target Support Files/Pods-DeeplinkBlueprintsTests_macOS/Pods-DeeplinkBlueprintsTests_macOS.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		39FAE2B8A8F41ED30391001E /* Frameworks */ = {
+		137E06633C4891E96B066013 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4502AF2906808ACBC953A7B4 /* Pods_DeeplinkBlueprints_tvOS.framework in Frameworks */,
+				EAFE299641949133B694FCA4 /* Pods_DeeplinkBlueprints_watchOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		451BDC57C3602BF52794A8EC /* Frameworks */ = {
+		4D53E0CD2DDA634689901FF4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9FF3D022C1C9B9F66D110E51 /* Pods_DeeplinkBlueprints_watchOS.framework in Frameworks */,
+				3AFB45094D9A047D8B9546A5 /* Pods_DeeplinkBlueprints_macOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4FBAA05605CFD329C0A6EB65 /* Frameworks */ = {
+		57C08C1BA3BC5F161F4FFF0C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E927251D161D9CA3E1C9CA29 /* Pods_DeeplinkBlueprints_macOS.framework in Frameworks */,
+				780EF0E624DF88DFD65A9F60 /* Pods_DeeplinkBlueprints_iOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -201,15 +223,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B6ED723E5A6A1634A328F7C9 /* DeeplinkBlueprints.framework in Frameworks */,
-				580907CDD56947E9058852A1 /* Pods_DeeplinkBlueprintsTests_macOS.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5BBA921072A421B48B61E971 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				EE8E5FB7B3C999B07F3BE992 /* Pods_DeeplinkBlueprints_iOS.framework in Frameworks */,
+				6E3B7CD350C5EC7EE64294F6 /* Pods_DeeplinkBlueprintsTests_macOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -218,7 +232,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A56C9BC82C0E3D2B73845E06 /* DeeplinkBlueprints.framework in Frameworks */,
-				B515CF6C57388C5A89F2DD25 /* Pods_DeeplinkBlueprintsTests_tvOS.framework in Frameworks */,
+				226202E0A9CF29C4A0A0201C /* Pods_DeeplinkBlueprintsTests_tvOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -227,7 +241,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				AF2E2FB28BD8DD1A227DBBCF /* DeeplinkBlueprints.framework in Frameworks */,
-				922A7B02C3A41436FF0415E0 /* Pods_Example.framework in Frameworks */,
+				71B12F192AD9362800882A35 /* Pods_Example.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B832BF595401FE5438FB6570 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAED9E1C4DF6105462299B05 /* Pods_DeeplinkBlueprints_tvOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -236,13 +258,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				DBEFBBDDE193D4F014FDD29E /* DeeplinkBlueprints.framework in Frameworks */,
-				3F60FECD558C958CBD4F32B7 /* Pods_DeeplinkBlueprintsTests_iOS.framework in Frameworks */,
+				EC76C7AAA1CB22B6CF5A8971 /* Pods_DeeplinkBlueprintsTests_iOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		04F8EE79F695FB7B07CD298F /* Routing */ = {
+			isa = PBXGroup;
+			children = (
+				89840E1BEF7517D44CF1C410 /* Route.swift */,
+			);
+			path = Routing;
+			sourceTree = "<group>";
+		};
 		2F782338333D87BC9B7E9B32 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -256,29 +286,6 @@
 				6AD14779627E85CAC9D7056F /* Example.app */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		36C182D570429E5497E42366 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				715A51165BD52CACAD56FC49 /* Pods-DeeplinkBlueprintsTests_iOS.debug.xcconfig */,
-				F7B85E0D7FC710FB490117D0 /* Pods-DeeplinkBlueprintsTests_iOS.release.xcconfig */,
-				B1B0DD83755644F9F3C3758C /* Pods-DeeplinkBlueprintsTests_macOS.debug.xcconfig */,
-				6F87D02D31245A07848DF0E5 /* Pods-DeeplinkBlueprintsTests_macOS.release.xcconfig */,
-				5BBDE599A314446DEA8540F4 /* Pods-DeeplinkBlueprintsTests_tvOS.debug.xcconfig */,
-				CB9F4062AB0AF0A41B980032 /* Pods-DeeplinkBlueprintsTests_tvOS.release.xcconfig */,
-				C664774E83F71D9DDD61B330 /* Pods-DeeplinkBlueprints_iOS.debug.xcconfig */,
-				992565F56B65FD526CE671FF /* Pods-DeeplinkBlueprints_iOS.release.xcconfig */,
-				8C87079124114B1490F7DCFB /* Pods-DeeplinkBlueprints_macOS.debug.xcconfig */,
-				3A93C997DE8A09538B045E5E /* Pods-DeeplinkBlueprints_macOS.release.xcconfig */,
-				299BA0E829C4F3007EDC0063 /* Pods-DeeplinkBlueprints_tvOS.debug.xcconfig */,
-				4F7C7FEF67F310024FE254F7 /* Pods-DeeplinkBlueprints_tvOS.release.xcconfig */,
-				FE175712172C3B9D9B697C06 /* Pods-DeeplinkBlueprints_watchOS.debug.xcconfig */,
-				96603EF76B6F3ADA384F4D18 /* Pods-DeeplinkBlueprints_watchOS.release.xcconfig */,
-				762219E58849C2B3FDE2FB21 /* Pods-Example.debug.xcconfig */,
-				A77AFA1F4B07D36004EAF9AB /* Pods-Example.release.xcconfig */,
-			);
-			path = Pods;
 			sourceTree = "<group>";
 		};
 		62F057BB0988C0C425461C70 /* Example */ = {
@@ -299,19 +306,41 @@
 			path = Configurations;
 			sourceTree = "<group>";
 		};
+		6BA01DEF52D9131C56CD913B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F6647D2E10BBF7EA32E425AF /* Pods-DeeplinkBlueprintsTests_iOS.debug.xcconfig */,
+				CDBEA8D4093759BD12A480E0 /* Pods-DeeplinkBlueprintsTests_iOS.release.xcconfig */,
+				FCE5A47BC02E01C2A96E0CB0 /* Pods-DeeplinkBlueprintsTests_macOS.debug.xcconfig */,
+				B6061C77DE9550735AFDF0EB /* Pods-DeeplinkBlueprintsTests_macOS.release.xcconfig */,
+				3FFF0B87C3BD8CD545BE2FED /* Pods-DeeplinkBlueprintsTests_tvOS.debug.xcconfig */,
+				6493601F4A39D345058B3667 /* Pods-DeeplinkBlueprintsTests_tvOS.release.xcconfig */,
+				17A42DF5A6C4A4F778C22CE9 /* Pods-DeeplinkBlueprints_iOS.debug.xcconfig */,
+				D48C1B7EE5709BE518735F1E /* Pods-DeeplinkBlueprints_iOS.release.xcconfig */,
+				7728140C4533D7871A351C62 /* Pods-DeeplinkBlueprints_macOS.debug.xcconfig */,
+				A82C9F1426B369B16B90B1C0 /* Pods-DeeplinkBlueprints_macOS.release.xcconfig */,
+				C87096A47918E1C55A3E5112 /* Pods-DeeplinkBlueprints_tvOS.debug.xcconfig */,
+				572A9228ACA07B0C50C96AFC /* Pods-DeeplinkBlueprints_tvOS.release.xcconfig */,
+				A2F83D5D9EC72509F4763FA1 /* Pods-DeeplinkBlueprints_watchOS.debug.xcconfig */,
+				AB5FEFD8D1E296282E3A2118 /* Pods-DeeplinkBlueprints_watchOS.release.xcconfig */,
+				9A6E65BD0CC587198D26195A /* Pods-Example.debug.xcconfig */,
+				63AB5319D141C7B60C123DBD /* Pods-Example.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		82D2A811B61BF8D183E2649A /* DeeplinkBlueprints */ = {
 			isa = PBXGroup;
 			children = (
-				F123FA39243E9EB7006664B8 /* Extensions */,
-				F123FA38243E9EAF006664B8 /* Operators */,
-				F123FA37243E9E92006664B8 /* Deeplinks */,
-				F123FA36243E9E8A006664B8 /* Protocols */,
-				F123FA35243E9E61006664B8 /* Routing */,
-				F123FA34243E9E53006664B8 /* Errors */,
+				C61A92290FE4DCC6312C8622 /* Deeplinks */,
+				C38B7E588E7E51D8314D8D98 /* Errors */,
+				AE7FF0B520525D049958DF42 /* Operators */,
+				04F8EE79F695FB7B07CD298F /* Routing */,
+				C801292C35328098CFAF7E89 /* DeeplinkBlueprintsTests_iOS-Bridging-Header.h */,
+				979D4703630348C0618959BA /* DeeplinkBlueprintsTests_macOS-Bridging-Header.h */,
+				4BC39FB14A397BF7F079E425 /* DeeplinkBlueprintsTests_tvOS-Bridging-Header.h */,
 				F5E9566C398EDC1F34333E50 /* Info.plist */,
-				F123FA21243E9CD9006664B8 /* DeeplinkBlueprintsTests_iOS-Bridging-Header.h */,
-				F123FA22243E9CD9006664B8 /* DeeplinkBlueprintsTests_macOS-Bridging-Header.h */,
-				F123FA23243E9CD9006664B8 /* DeeplinkBlueprintsTests_tvOS-Bridging-Header.h */,
 			);
 			path = DeeplinkBlueprints;
 			sourceTree = "<group>";
@@ -319,21 +348,48 @@
 		9B8923924F73249874881582 /* DeeplinkBlueprintsTests */ = {
 			isa = PBXGroup;
 			children = (
+				3FEE0CA989A8E295552900DC /* DeeplinkBlueprintComponentTests.swift */,
 			);
 			path = DeeplinkBlueprintsTests;
 			sourceTree = "<group>";
 		};
-		A1281F4786DB0D1A200A7959 /* Frameworks */ = {
+		AE7FF0B520525D049958DF42 /* Operators */ = {
 			isa = PBXGroup;
 			children = (
-				AD73507FE34D998D4023F570 /* Pods_DeeplinkBlueprintsTests_iOS.framework */,
-				186BF9F42D1BCB08F186804A /* Pods_DeeplinkBlueprintsTests_macOS.framework */,
-				BD8ED4B2D3F9C72739E78E5E /* Pods_DeeplinkBlueprintsTests_tvOS.framework */,
-				113A5406536B50F81DC43949 /* Pods_DeeplinkBlueprints_iOS.framework */,
-				C5B8BF3142E28FF396C03329 /* Pods_DeeplinkBlueprints_macOS.framework */,
-				25759C187F46BCF45F7BC411 /* Pods_DeeplinkBlueprints_tvOS.framework */,
-				F628D4D95EAE76C7AD0198FB /* Pods_DeeplinkBlueprints_watchOS.framework */,
-				A679F794FE9D4EFB5D2FFE34 /* Pods_Example.framework */,
+				929912A0DB46D5145E4181B2 /* ExtractOperator.swift */,
+				993E60CB70AD8186D248F6D1 /* MatchOperator.swift */,
+			);
+			path = Operators;
+			sourceTree = "<group>";
+		};
+		C38B7E588E7E51D8314D8D98 /* Errors */ = {
+			isa = PBXGroup;
+			children = (
+				3FA1A6EC9F5DBC19D64BCB00 /* DeeplinkBlueprintError.swift */,
+				87BD840822398B129D6DEB4A /* RouteError.swift */,
+			);
+			path = Errors;
+			sourceTree = "<group>";
+		};
+		C61A92290FE4DCC6312C8622 /* Deeplinks */ = {
+			isa = PBXGroup;
+			children = (
+				DB6A22E594AF265E1B1196E6 /* DeeplinkBlueprintComponent.swift */,
+			);
+			path = Deeplinks;
+			sourceTree = "<group>";
+		};
+		CB52663FA6F8C88FAFCC1F60 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A04CAAEF9B712FF07ED3C2A7 /* Pods_DeeplinkBlueprintsTests_iOS.framework */,
+				ED034A732F8D5DC490972B58 /* Pods_DeeplinkBlueprintsTests_macOS.framework */,
+				7F08D7AD54B738A71D6DDED9 /* Pods_DeeplinkBlueprintsTests_tvOS.framework */,
+				974A5974C16D37E99D6D23BF /* Pods_DeeplinkBlueprints_iOS.framework */,
+				EB1AFB1E54FDCAF1A0D77EBA /* Pods_DeeplinkBlueprints_macOS.framework */,
+				8E7967385B06CC5A541BCCB4 /* Pods_DeeplinkBlueprints_tvOS.framework */,
+				632B294218CA619C182152B3 /* Pods_DeeplinkBlueprints_watchOS.framework */,
+				BFF2AEBC18EEF34AD93A94CA /* Pods_Example.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -347,67 +403,62 @@
 				62F057BB0988C0C425461C70 /* Example */,
 				597BE14D3C12B2A620772F8C /* Package.swift */,
 				2F782338333D87BC9B7E9B32 /* Products */,
-				36C182D570429E5497E42366 /* Pods */,
-				A1281F4786DB0D1A200A7959 /* Frameworks */,
+				6BA01DEF52D9131C56CD913B /* Pods */,
+				CB52663FA6F8C88FAFCC1F60 /* Frameworks */,
 			);
-			sourceTree = "<group>";
-		};
-		F123FA34243E9E53006664B8 /* Errors */ = {
-			isa = PBXGroup;
-			children = (
-				F123FA24243E9CD9006664B8 /* RouteError.swift */,
-				F123FA28243E9D0F006664B8 /* DeeplinkBlueprintError.swift */,
-			);
-			path = Errors;
-			sourceTree = "<group>";
-		};
-		F123FA35243E9E61006664B8 /* Routing */ = {
-			isa = PBXGroup;
-			children = (
-				F123FA30243E9D88006664B8 /* Route.swift */,
-			);
-			path = Routing;
-			sourceTree = "<group>";
-		};
-		F123FA36243E9E8A006664B8 /* Protocols */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Protocols;
-			sourceTree = "<group>";
-		};
-		F123FA37243E9E92006664B8 /* Deeplinks */ = {
-			isa = PBXGroup;
-			children = (
-				F123FA2C243E9D67006664B8 /* DeeplinkBlueprintComponent.swift */,
-			);
-			path = Deeplinks;
-			sourceTree = "<group>";
-		};
-		F123FA38243E9EAF006664B8 /* Operators */ = {
-			isa = PBXGroup;
-			children = (
-				F123FA3A243E9EDA006664B8 /* ExtractOperator.swift */,
-				F123FA3E243E9F07006664B8 /* MatchOperator.swift */,
-			);
-			path = Operators;
-			sourceTree = "<group>";
-		};
-		F123FA39243E9EB7006664B8 /* Extensions */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		013669096E36EC926A092F65 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03EE4CDFE6108370238D677A /* DeeplinkBlueprintsTests_iOS-Bridging-Header.h in Headers */,
+				A06B260920ECC48F60598851 /* DeeplinkBlueprintsTests_macOS-Bridging-Header.h in Headers */,
+				057535186BBA50692D5B3A90 /* DeeplinkBlueprintsTests_tvOS-Bridging-Header.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BC2237037AE75E72E87DA1A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2B4E88601FB6855CA59F28C /* DeeplinkBlueprintsTests_iOS-Bridging-Header.h in Headers */,
+				A6738B0FC43FD0244A61A852 /* DeeplinkBlueprintsTests_macOS-Bridging-Header.h in Headers */,
+				020609CE866A20154AAEA8C7 /* DeeplinkBlueprintsTests_tvOS-Bridging-Header.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BE91F30536E59C8D05B1644 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A2D99B4AFF4568FA8169B03 /* DeeplinkBlueprintsTests_iOS-Bridging-Header.h in Headers */,
+				6A01A9EC60D8AA6B870083FD /* DeeplinkBlueprintsTests_macOS-Bridging-Header.h in Headers */,
+				85A6DDAB77FC877255C346FF /* DeeplinkBlueprintsTests_tvOS-Bridging-Header.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9E26369E93C25FB9B6CE68D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BED5A027B985C67AB505A1EC /* DeeplinkBlueprintsTests_iOS-Bridging-Header.h in Headers */,
+				25EAA4801F97D41082AD866A /* DeeplinkBlueprintsTests_macOS-Bridging-Header.h in Headers */,
+				2229A1867037C239350D77AF /* DeeplinkBlueprintsTests_tvOS-Bridging-Header.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		5940239955C5D9CC71BD77AB /* DeeplinkBlueprintsTests_tvOS */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 94894449F19081C6354DE566 /* Build configuration list for PBXNativeTarget "DeeplinkBlueprintsTests_tvOS" */;
 			buildPhases = (
-				3AB09C8E1F3A0DAE02D4420E /* [CP] Check Pods Manifest.lock */,
+				791B08F39886088461827E81 /* [CP] Check Pods Manifest.lock */,
 				1AFCDEE619AC29FAB8C44C83 /* Sources */,
 				81CA228C071748CDAF1931D2 /* Frameworks */,
 				15B4150060AD75AE71850D01 /* Embed Frameworks */,
@@ -426,7 +477,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8D12E8D5ED4F3D12A8467DCA /* Build configuration list for PBXNativeTarget "DeeplinkBlueprintsTests_macOS" */;
 			buildPhases = (
-				CB5038CAA6506DF3E02E0D06 /* [CP] Check Pods Manifest.lock */,
+				5785A9C243624CD422EE0B50 /* [CP] Check Pods Manifest.lock */,
 				E46279D09415538884147EDF /* Sources */,
 				59DE518767CC8BCCECEAAF2D /* Frameworks */,
 				4507D837AA4683A582E67A5A /* Embed Frameworks */,
@@ -445,9 +496,10 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 282B4249791B9D5CD13842F2 /* Build configuration list for PBXNativeTarget "DeeplinkBlueprints_watchOS" */;
 			buildPhases = (
-				FE5590C8EA56D971755C673C /* [CP] Check Pods Manifest.lock */,
+				797DB510C2D929F6CFFA7837 /* [CP] Check Pods Manifest.lock */,
+				8BE91F30536E59C8D05B1644 /* Headers */,
 				7482937819E6A8277EEE5059 /* Sources */,
-				451BDC57C3602BF52794A8EC /* Frameworks */,
+				137E06633C4891E96B066013 /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -462,7 +514,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1C1903FC2DB96FE720321BBE /* Build configuration list for PBXNativeTarget "DeeplinkBlueprintsTests_iOS" */;
 			buildPhases = (
-				7CD39FE18C2DA7EF159F5AC4 /* [CP] Check Pods Manifest.lock */,
+				82F6D27F43FA606D727BE480 /* [CP] Check Pods Manifest.lock */,
 				16E68D5B188C48E4E6452E15 /* Sources */,
 				CC96F421FE294CF50206B231 /* Frameworks */,
 				B22760462DD79509ECD5DB8A /* Embed Frameworks */,
@@ -481,9 +533,10 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A40C69825FD272F128A18F4B /* Build configuration list for PBXNativeTarget "DeeplinkBlueprints_tvOS" */;
 			buildPhases = (
-				D2865AB2C498B3CD02959D29 /* [CP] Check Pods Manifest.lock */,
+				8A1CA3738DAEE6DE096B83C5 /* [CP] Check Pods Manifest.lock */,
+				3BC2237037AE75E72E87DA1A /* Headers */,
 				1A19FAE6070F4AE122918C08 /* Sources */,
-				39FAE2B8A8F41ED30391001E /* Frameworks */,
+				B832BF595401FE5438FB6570 /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -498,9 +551,10 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 15A1CAA76AC9008E3C101FA5 /* Build configuration list for PBXNativeTarget "DeeplinkBlueprints_macOS" */;
 			buildPhases = (
-				149A0719FC85711C314F95AB /* [CP] Check Pods Manifest.lock */,
+				E56181180C139A9A4118A791 /* [CP] Check Pods Manifest.lock */,
+				B9E26369E93C25FB9B6CE68D /* Headers */,
 				6691273BE5E4604519B02B08 /* Sources */,
-				4FBAA05605CFD329C0A6EB65 /* Frameworks */,
+				4D53E0CD2DDA634689901FF4 /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -515,9 +569,10 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D08C793993A6BC122B396331 /* Build configuration list for PBXNativeTarget "DeeplinkBlueprints_iOS" */;
 			buildPhases = (
-				F6814E7577CF652691146C05 /* [CP] Check Pods Manifest.lock */,
+				8D52B488F7543F56CDAE8BEA /* [CP] Check Pods Manifest.lock */,
+				013669096E36EC926A092F65 /* Headers */,
 				451C0B3F8B58081F0F79AD02 /* Sources */,
-				5BBA921072A421B48B61E971 /* Frameworks */,
+				57C08C1BA3BC5F161F4FFF0C /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -532,7 +587,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1A78BC352DC65A91E1AA6742 /* Build configuration list for PBXNativeTarget "Example" */;
 			buildPhases = (
-				E9B86B0F5BABBC22D7A116F7 /* [CP] Check Pods Manifest.lock */,
+				8D34EB0556E8F942D3C78697 /* [CP] Check Pods Manifest.lock */,
 				101031CC3A63C3B6474EA486 /* Sources */,
 				8943822FC6F1072903EF83F4 /* Frameworks */,
 				01B7F413F1A0674257929442 /* Embed Frameworks */,
@@ -558,18 +613,15 @@
 				ORGANIZATIONNAME = LionSoftware.org;
 				TargetAttributes = {
 					5940239955C5D9CC71BD77AB = {
-						LastSwiftMigration = 1130;
 						ProvisioningStyle = Manual;
 					};
 					7597A9B7EF52051A0C2F58DC = {
-						LastSwiftMigration = 1130;
 						ProvisioningStyle = Manual;
 					};
 					83E74574DE37433142231D4C = {
 						ProvisioningStyle = Manual;
 					};
 					9D9AD27DC19DE6C83E470513 = {
-						LastSwiftMigration = 1130;
 						ProvisioningStyle = Manual;
 					};
 					9E92F0E2509DDE68815BAF55 = {
@@ -612,28 +664,6 @@
 /* End PBXProject section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		149A0719FC85711C314F95AB /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-DeeplinkBlueprints_macOS-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
 		1966C5430B95541B26A25D16 /* SwiftLint */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -652,51 +682,7 @@
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/SwiftLint/swiftlint\"\n";
 		};
-		3AB09C8E1F3A0DAE02D4420E /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-DeeplinkBlueprintsTests_tvOS-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		7CD39FE18C2DA7EF159F5AC4 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-DeeplinkBlueprintsTests_iOS-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		CB5038CAA6506DF3E02E0D06 /* [CP] Check Pods Manifest.lock */ = {
+		5785A9C243624CD422EE0B50 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -718,7 +704,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		D2865AB2C498B3CD02959D29 /* [CP] Check Pods Manifest.lock */ = {
+		791B08F39886088461827E81 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -733,58 +719,14 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-DeeplinkBlueprints_tvOS-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-DeeplinkBlueprintsTests_tvOS-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		E9B86B0F5BABBC22D7A116F7 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Example-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		F6814E7577CF652691146C05 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-DeeplinkBlueprints_iOS-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		FE5590C8EA56D971755C673C /* [CP] Check Pods Manifest.lock */ = {
+		797DB510C2D929F6CFFA7837 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -806,6 +748,116 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		82F6D27F43FA606D727BE480 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DeeplinkBlueprintsTests_iOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8A1CA3738DAEE6DE096B83C5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DeeplinkBlueprints_tvOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8D34EB0556E8F942D3C78697 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Example-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8D52B488F7543F56CDAE8BEA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DeeplinkBlueprints_iOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E56181180C139A9A4118A791 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DeeplinkBlueprints_macOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -820,12 +872,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F123FA29243E9D0F006664B8 /* DeeplinkBlueprintError.swift in Sources */,
-				F123FA3F243E9F07006664B8 /* MatchOperator.swift in Sources */,
-				F123FA31243E9D88006664B8 /* Route.swift in Sources */,
-				F123FA2D243E9D67006664B8 /* DeeplinkBlueprintComponent.swift in Sources */,
-				F123FA25243E9CD9006664B8 /* RouteError.swift in Sources */,
-				F123FA3B243E9EDA006664B8 /* ExtractOperator.swift in Sources */,
+				FB1534000766B9056AE361BA /* DeeplinkBlueprintComponentTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -833,6 +880,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE0307953BB95199B499F1C8 /* DeeplinkBlueprintComponent.swift in Sources */,
+				207F9919B57ABEE7964E1BD0 /* DeeplinkBlueprintError.swift in Sources */,
+				B5D2A1674807F90304DF6626 /* ExtractOperator.swift in Sources */,
+				B81F5580FDB38CADF1D2032B /* MatchOperator.swift in Sources */,
+				472FFA817E73A012AC0D415C /* Route.swift in Sources */,
+				2A71C0068944207317ECE19C /* RouteError.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -840,12 +893,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F123FA2B243E9D0F006664B8 /* DeeplinkBlueprintError.swift in Sources */,
-				F123FA41243E9F07006664B8 /* MatchOperator.swift in Sources */,
-				F123FA33243E9D88006664B8 /* Route.swift in Sources */,
-				F123FA2F243E9D67006664B8 /* DeeplinkBlueprintComponent.swift in Sources */,
-				F123FA27243E9CD9006664B8 /* RouteError.swift in Sources */,
-				F123FA3D243E9EDA006664B8 /* ExtractOperator.swift in Sources */,
+				42CA73E9E50A1624D0B57D33 /* DeeplinkBlueprintComponentTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -853,6 +901,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB9151D8E510B8FF4E42E95A /* DeeplinkBlueprintComponent.swift in Sources */,
+				4AE7857573F32E62FCAE31C9 /* DeeplinkBlueprintError.swift in Sources */,
+				D2F297982B12497C5B28189C /* ExtractOperator.swift in Sources */,
+				B0927DDA8C6020DF2E68ED48 /* MatchOperator.swift in Sources */,
+				8457431767B2D5567A3AE29E /* Route.swift in Sources */,
+				C1EBD9E818A55165DC76F62E /* RouteError.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -860,6 +914,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F60B2057C4721BF338AABF6 /* DeeplinkBlueprintComponent.swift in Sources */,
+				1131988B04F41D80FE02BECA /* DeeplinkBlueprintError.swift in Sources */,
+				4EFA9F7A42A943749ACEA412 /* ExtractOperator.swift in Sources */,
+				E5634DBC5F02E10BB07555AF /* MatchOperator.swift in Sources */,
+				24CD5343468834AB202E5A7D /* Route.swift in Sources */,
+				552A43A3748C3A035202FE7A /* RouteError.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -867,6 +927,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F422D316029E0AA184C665CB /* DeeplinkBlueprintComponent.swift in Sources */,
+				EFDAFEC561F45BD8892D2486 /* DeeplinkBlueprintError.swift in Sources */,
+				4AF5F0710DF3B4B5D0E177D3 /* ExtractOperator.swift in Sources */,
+				99D9316257F5B9B8F65EEC0D /* MatchOperator.swift in Sources */,
+				DBB877C3C3FC70BBBF138B93 /* Route.swift in Sources */,
+				F0B593D22E3F3986EAEB2676 /* RouteError.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -874,12 +940,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F123FA2A243E9D0F006664B8 /* DeeplinkBlueprintError.swift in Sources */,
-				F123FA40243E9F07006664B8 /* MatchOperator.swift in Sources */,
-				F123FA32243E9D88006664B8 /* Route.swift in Sources */,
-				F123FA2E243E9D67006664B8 /* DeeplinkBlueprintComponent.swift in Sources */,
-				F123FA26243E9CD9006664B8 /* RouteError.swift in Sources */,
-				F123FA3C243E9EDA006664B8 /* ExtractOperator.swift in Sources */,
+				390F7327976D064745C34652 /* DeeplinkBlueprintComponentTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -911,10 +972,9 @@
 /* Begin XCBuildConfiguration section */
 		125CE27950DF2A9F848015E3 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B1B0DD83755644F9F3C3758C /* Pods-DeeplinkBlueprintsTests_macOS.debug.xcconfig */;
+			baseConfigurationReference = FCE5A47BC02E01C2A96E0CB0 /* Pods-DeeplinkBlueprintsTests_macOS.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				CLANG_ENABLE_MODULES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -925,9 +985,6 @@
 				PRODUCT_NAME = DeeplinkBlueprintsTests;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = macosx;
-				SWIFT_OBJC_BRIDGING_HEADER = "DeeplinkBlueprints/DeeplinkBlueprintsTests_macOS-Bridging-Header.h";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -992,10 +1049,9 @@
 		};
 		35E7C2A4349647FD3EA24E82 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CB9F4062AB0AF0A41B980032 /* Pods-DeeplinkBlueprintsTests_tvOS.release.xcconfig */;
+			baseConfigurationReference = 6493601F4A39D345058B3667 /* Pods-DeeplinkBlueprintsTests_tvOS.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				CLANG_ENABLE_MODULES = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1005,15 +1061,13 @@
 				PRODUCT_NAME = DeeplinkBlueprintsTests;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = appletvos;
-				SWIFT_OBJC_BRIDGING_HEADER = "DeeplinkBlueprints/DeeplinkBlueprintsTests_tvOS-Bridging-Header.h";
-				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 3;
 			};
 			name = Release;
 		};
 		443F4CDF13733FDB19CD45DB /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8C87079124114B1490F7DCFB /* Pods-DeeplinkBlueprints_macOS.debug.xcconfig */;
+			baseConfigurationReference = 7728140C4533D7871A351C62 /* Pods-DeeplinkBlueprints_macOS.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				COMBINE_HIDPI_IMAGES = YES;
@@ -1038,7 +1092,7 @@
 		};
 		476522FA9E4BB9F6CAB0C2F6 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 762219E58849C2B3FDE2FB21 /* Pods-Example.debug.xcconfig */;
+			baseConfigurationReference = 9A6E65BD0CC587198D26195A /* Pods-Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -1058,7 +1112,7 @@
 		};
 		554A4118121C7904C50652DA /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 96603EF76B6F3ADA384F4D18 /* Pods-DeeplinkBlueprints_watchOS.release.xcconfig */;
+			baseConfigurationReference = AB5FEFD8D1E296282E3A2118 /* Pods-DeeplinkBlueprints_watchOS.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				CURRENT_PROJECT_VERSION = 1;
@@ -1079,7 +1133,7 @@
 		};
 		5DBE0D6FF221B8A8A9B006CB /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3A93C997DE8A09538B045E5E /* Pods-DeeplinkBlueprints_macOS.release.xcconfig */;
+			baseConfigurationReference = A82C9F1426B369B16B90B1C0 /* Pods-DeeplinkBlueprints_macOS.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				COMBINE_HIDPI_IMAGES = YES;
@@ -1104,7 +1158,7 @@
 		};
 		60C1842E256F5E6AAAE84027 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4F7C7FEF67F310024FE254F7 /* Pods-DeeplinkBlueprints_tvOS.release.xcconfig */;
+			baseConfigurationReference = 572A9228ACA07B0C50C96AFC /* Pods-DeeplinkBlueprints_tvOS.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				CURRENT_PROJECT_VERSION = 1;
@@ -1129,10 +1183,9 @@
 		};
 		6474405306F962E8788885F3 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6F87D02D31245A07848DF0E5 /* Pods-DeeplinkBlueprintsTests_macOS.release.xcconfig */;
+			baseConfigurationReference = B6061C77DE9550735AFDF0EB /* Pods-DeeplinkBlueprintsTests_macOS.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				CLANG_ENABLE_MODULES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1143,17 +1196,14 @@
 				PRODUCT_NAME = DeeplinkBlueprintsTests;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = macosx;
-				SWIFT_OBJC_BRIDGING_HEADER = "DeeplinkBlueprints/DeeplinkBlueprintsTests_macOS-Bridging-Header.h";
-				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
 		6D582160CBF70D5A1FA9E79C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5BBDE599A314446DEA8540F4 /* Pods-DeeplinkBlueprintsTests_tvOS.debug.xcconfig */;
+			baseConfigurationReference = 3FFF0B87C3BD8CD545BE2FED /* Pods-DeeplinkBlueprintsTests_tvOS.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				CLANG_ENABLE_MODULES = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1163,16 +1213,13 @@
 				PRODUCT_NAME = DeeplinkBlueprintsTests;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = appletvos;
-				SWIFT_OBJC_BRIDGING_HEADER = "DeeplinkBlueprints/DeeplinkBlueprintsTests_tvOS-Bridging-Header.h";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 3;
 			};
 			name = Debug;
 		};
 		800F3FA6BA26FEC738CE0321 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A77AFA1F4B07D36004EAF9AB /* Pods-Example.release.xcconfig */;
+			baseConfigurationReference = 63AB5319D141C7B60C123DBD /* Pods-Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -1244,7 +1291,7 @@
 		};
 		A7E1D88771BFFF9CF97E8272 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C664774E83F71D9DDD61B330 /* Pods-DeeplinkBlueprints_iOS.debug.xcconfig */;
+			baseConfigurationReference = 17A42DF5A6C4A4F778C22CE9 /* Pods-DeeplinkBlueprints_iOS.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				CURRENT_PROJECT_VERSION = 1;
@@ -1269,7 +1316,7 @@
 		};
 		AB6161874350CB2FCA17D2A7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FE175712172C3B9D9B697C06 /* Pods-DeeplinkBlueprints_watchOS.debug.xcconfig */;
+			baseConfigurationReference = A2F83D5D9EC72509F4763FA1 /* Pods-DeeplinkBlueprints_watchOS.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				CURRENT_PROJECT_VERSION = 1;
@@ -1290,7 +1337,7 @@
 		};
 		B084196EF9ADFF36AD131402 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 299BA0E829C4F3007EDC0063 /* Pods-DeeplinkBlueprints_tvOS.debug.xcconfig */;
+			baseConfigurationReference = C87096A47918E1C55A3E5112 /* Pods-DeeplinkBlueprints_tvOS.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				CURRENT_PROJECT_VERSION = 1;
@@ -1315,10 +1362,9 @@
 		};
 		BD17156C57C919B0FB0C47FA /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 715A51165BD52CACAD56FC49 /* Pods-DeeplinkBlueprintsTests_iOS.debug.xcconfig */;
+			baseConfigurationReference = F6647D2E10BBF7EA32E425AF /* Pods-DeeplinkBlueprintsTests_iOS.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				CLANG_ENABLE_MODULES = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1328,19 +1374,15 @@
 				PRODUCT_NAME = DeeplinkBlueprintsTests;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = iphoneos;
-				SWIFT_OBJC_BRIDGING_HEADER = "DeeplinkBlueprints/DeeplinkBlueprintsTests_iOS-Bridging-Header.h";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		C5C77AC4D5EE1A93B142A503 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F7B85E0D7FC710FB490117D0 /* Pods-DeeplinkBlueprintsTests_iOS.release.xcconfig */;
+			baseConfigurationReference = CDBEA8D4093759BD12A480E0 /* Pods-DeeplinkBlueprintsTests_iOS.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				CLANG_ENABLE_MODULES = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1350,15 +1392,13 @@
 				PRODUCT_NAME = DeeplinkBlueprintsTests;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = iphoneos;
-				SWIFT_OBJC_BRIDGING_HEADER = "DeeplinkBlueprints/DeeplinkBlueprintsTests_iOS-Bridging-Header.h";
-				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
 		F0CE714B413F6C81C20CD2F7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 992565F56B65FD526CE671FF /* Pods-DeeplinkBlueprints_iOS.release.xcconfig */;
+			baseConfigurationReference = D48C1B7EE5709BE518735F1E /* Pods-DeeplinkBlueprints_iOS.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				CURRENT_PROJECT_VERSION = 1;

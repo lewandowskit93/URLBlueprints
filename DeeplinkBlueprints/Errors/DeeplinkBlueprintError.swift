@@ -9,6 +9,6 @@
 public enum DeeplinkBlueprintError: Equatable, Error {
     case invalidScheme
     case invalidComponentCount
-    case invalidValueType(expected: DeeplinkBleprintComponent, actual: String)
+    case invalidValueType(expected: DeeplinkBlueprintComponent, actual: String)
     case placeholdersInBlueprint
 }
