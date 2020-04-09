@@ -10,7 +10,7 @@ Pod::Spec.new do |spec|
   spec.author       = { "Tomasz Lewandowski" => "tomasz.t.lewandowski@gmail.com" }
   spec.source       = { :git => "https://github.com/lewandowskit93/URLBlueprints.git", :tag => "#{spec.version}" }
   spec.source_files  = "URLBlueprints/**/*.swift"
-  spec.swift_versions = "5.2"
+  spec.swift_versions = "5.1"
   spec.ios.deployment_target = '8.0'
   spec.osx.deployment_target = '10.10'
   spec.tvos.deployment_target = '9.0'
