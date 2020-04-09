@@ -90,6 +90,9 @@
 		F123FA9B243FBA71006664B8 /* URLBlueprintTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F123FA9A243FBA71006664B8 /* URLBlueprintTests.swift */; };
 		F123FA9C243FBA71006664B8 /* URLBlueprintTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F123FA9A243FBA71006664B8 /* URLBlueprintTests.swift */; };
 		F123FA9D243FBA71006664B8 /* URLBlueprintTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F123FA9A243FBA71006664B8 /* URLBlueprintTests.swift */; };
+		F123FA9F243FBC8E006664B8 /* URLRouterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F123FA9E243FBC8E006664B8 /* URLRouterTests.swift */; };
+		F123FAA0243FBC8E006664B8 /* URLRouterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F123FA9E243FBC8E006664B8 /* URLRouterTests.swift */; };
+		F123FAA1243FBC8E006664B8 /* URLRouterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F123FA9E243FBC8E006664B8 /* URLRouterTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -215,6 +218,7 @@
 		F0B5E2D4541B6A2885BA5C8A /* URLBlueprints.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = URLBlueprints.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F123FA96243FB5D3006664B8 /* ComponentsArrayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComponentsArrayTests.swift; sourceTree = "<group>"; };
 		F123FA9A243FBA71006664B8 /* URLBlueprintTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLBlueprintTests.swift; sourceTree = "<group>"; };
+		F123FA9E243FBC8E006664B8 /* URLRouterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLRouterTests.swift; sourceTree = "<group>"; };
 		F754F48A02AB7A498463C55C /* URLBlueprints.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = URLBlueprints.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9A38849C2A7C8981F6807C6 /* URLBlueprintsTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = URLBlueprintsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -398,6 +402,7 @@
 				485F770E959A4662DAFF85B6 /* DeeplinkBlueprintComponentTests.swift */,
 				F123FA96243FB5D3006664B8 /* ComponentsArrayTests.swift */,
 				F123FA9A243FBA71006664B8 /* URLBlueprintTests.swift */,
+				F123FA9E243FBC8E006664B8 /* URLRouterTests.swift */,
 			);
 			path = URLBlueprintsTests;
 			sourceTree = "<group>";
@@ -952,6 +957,7 @@
 			files = (
 				A7143451FA1832CBB1092620 /* DeeplinkBlueprintComponentTests.swift in Sources */,
 				F123FA98243FB5D3006664B8 /* ComponentsArrayTests.swift in Sources */,
+				F123FAA0243FBC8E006664B8 /* URLRouterTests.swift in Sources */,
 				F123FA9C243FBA71006664B8 /* URLBlueprintTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -980,6 +986,7 @@
 			files = (
 				170E3B87FAF5D5A806857306 /* DeeplinkBlueprintComponentTests.swift in Sources */,
 				F123FA99243FB5D3006664B8 /* ComponentsArrayTests.swift in Sources */,
+				F123FAA1243FBC8E006664B8 /* URLRouterTests.swift in Sources */,
 				F123FA9D243FBA71006664B8 /* URLBlueprintTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1018,6 +1025,7 @@
 			files = (
 				92AA3D964C68A8FB3EBF0125 /* DeeplinkBlueprintComponentTests.swift in Sources */,
 				F123FA97243FB5D3006664B8 /* ComponentsArrayTests.swift in Sources */,
+				F123FA9F243FBC8E006664B8 /* URLRouterTests.swift in Sources */,
 				F123FA9B243FBA71006664B8 /* URLBlueprintTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -36,6 +36,15 @@ class ComponentsArrayTests: XCTestCase {
             XCTAssertEqual(URLBlueprintError.invalidValueType(expected: .intPlaceholder(key: "id"), actual: "username"), error as? URLBlueprintError)
         }
     }
+    
+    func testExtract_WhenComponentCountDiffers_ShouldThrowError() {
+        XCTAssertThrowsError(try [
+            .floatPlaceholder(key: "val"),
+            .stringPlaceholder(key: "val")] <~ ["username", "456.5", "string"],
+                             "Invalid component type") { (error) in
+                                XCTAssertEqual(URLBlueprintError.invalidComponentCount(expected: 2, actual: 3), error as? URLBlueprintError)
+        }
+    }
 }
 
 private func XCTAssertMatch(_ components: [URLBlueprintComponent], _ values: [String]) {
