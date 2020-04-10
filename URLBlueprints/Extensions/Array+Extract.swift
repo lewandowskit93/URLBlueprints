@@ -7,7 +7,7 @@
 //
 
 public func <~ (deeplinkComponents: [URLBlueprintComponent], pathComponents: [String]) throws -> [URLBlueprintComponent] {
-    guard deeplinkComponents.count == pathComponents.count else { throw URLBlueprintError.invalidComponentCount }
+    guard deeplinkComponents.count == pathComponents.count else { throw URLBlueprintError.invalidComponentCount(expected: deeplinkComponents.count, actual: pathComponents.count) }
     return try zip(deeplinkComponents, pathComponents)
         .map { try $0 <~ $1 }
 }

@@ -36,3 +36,5 @@ public enum Counted<T> {
         }
     }
 }
+
+extension Counted: Equatable where T: Equatable {}

@@ -8,7 +8,7 @@
 
 public enum URLBlueprintError: Equatable, Error {
     case invalidScheme
-    case invalidComponentCount
+    case invalidComponentCount(expected: Int, actual: Int)
     case invalidValueType(expected: URLBlueprintComponent, actual: String)
     case placeholdersInBlueprint
 }

@@ -39,7 +39,7 @@ github "lewandowskit93/URLBlueprints"
 
 To install URLBlueprints using **Swift Package Manager** go through following steps:
 
-1. Add following package dependency in you **Package.swift** ``` .package(url: "https://github.com/lewandowskit93/URLBlueprints.git", from: "0.0.2") ```
+1. Add following package dependency in you **Package.swift** ``` .package(url: "https://github.com/lewandowskit93/URLBlueprints.git", from: "0.0.3") ```
 2. Add following target dependency in your **Package.swift** ``` dependencies: ["URLBlueprints"]) ```
 
 For instance this is how it might look like:
@@ -54,7 +54,7 @@ let package = Package(
             targets: ["YourLibrary"])
     ],
     dependencies: [
-        .package(url: "https://github.com/lewandowskit93/URLBlueprints.git", from: "0.0.2")
+        .package(url: "https://github.com/lewandowskit93/URLBlueprints.git", from: "0.0.3")
     ],
     targets: [
         .target(
